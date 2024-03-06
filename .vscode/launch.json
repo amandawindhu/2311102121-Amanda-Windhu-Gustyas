@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Axioo Pongo/Documents/SEMESTER 2/Algoritma Struktur Data/2311102121-Amanda-Windhu-Gustyas",
+      "program": "c:/Users/Axioo Pongo/Documents/SEMESTER 2/Algoritma Struktur Data/2311102121-Amanda-Windhu-Gustyas/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
