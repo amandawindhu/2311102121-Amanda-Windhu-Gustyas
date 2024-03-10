@@ -6,7 +6,7 @@
 Tipe data adalah kategori yang membantu komputer memahami jenis data yang disimpan dalam variabel. Hal ini memungkinkan komputer untuk memproses data dengan cara yang tepat dan menghindari kesalahan. Berikut ada tipe data yang akan dipelajari : 
 
 1. Tipe Data Primitif<br/>
-Tipe data primitif adalah tipe data yang sederhana dan disediakan oleh bahasa pemrograman. Contoh tipe data primitif :
+Tipe data primitif adalah tipe data yang sederhana dan disediakan oleh bahasa pemrograman. Contoh tipe data primitif :<br/>
     a. Int merupakan tipe data numerik untuk menyimpan bilangan bulat.<br/>
     b. Float merupakan tipe data untuk menyimpan bilangan desimal.<br/>
     c. Char adalah karakter tunggal yang pendefinisiannya di awal dan di akhir menggunakan     
@@ -17,11 +17,11 @@ Tipe data primitif adalah tipe data yang sederhana dan disediakan oleh bahasa pe
 Tipe data abstrak atau tipe data yang dikenal Abstrack data Type (ADT) adalah suatu tipe data yang merujuk pada sejumlah bentuk struktur data yang memiliki kegunaan serupa. TDA berfokus pada apa yang dapat dilakukan dengan struktur data, bukan bagaimana strukturnya diimplementasikan dalam memori komputer.
 
 3. Tipe Data Koleksi<br/>
-Tipe data koleksi (Collection Data Type) adalah adalah tipe data yang digunakan untuk menyimpan dan mengelompokan beberapa data dengan jenis yang sama atau berbeda. Berikut merupakan tipe data koleksi yang umum digunakan :
-    a. Array merupakan kumpulan data yang bertipe sama yang menggunakan nama yang sama.
+Tipe data koleksi (Collection Data Type) adalah adalah tipe data yang digunakan untuk menyimpan dan mengelompokan beberapa data dengan jenis yang sama atau berbeda. Berikut merupakan tipe data koleksi yang umum digunakan :<br/>
+    a. Array merupakan kumpulan data yang bertipe sama yang menggunakan nama yang sama.<br/>
     b. Vector adalah struktur data yang sama dengan array untuk menyimpan data dalam bentuk
-       elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan.
-    c. Map adalah tipe data yang menyyimpan data berdasarkan pasangan key-value. 
+       elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan.<br/>
+    c. Map adalah tipe data yang menyyimpan data berdasarkan pasangan key-value.<br/>
 
 ## Guided 
 
@@ -195,7 +195,7 @@ int main() {
 (![Screenshot Output Unguided 1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/c704bcfc-5414-40b8-8087-130024dec778)
 Kode di atas digunakan untuk mencetak teks " 1. Menghitung volume balok dan 2. menghitung volume lingkaran". User akan diminta memilih antara menu 1 atau 2 yang merupakan tipe data integer. Kemudian hasil volumenya berupa tipe data float. 
  
-Kesimpulan Tipe Data Primitif
+Kesimpulan Tipe Data Primitif<br/>
 Tipe data primitif adalah tipe data yang tidak bisa diubah nilainya, contohnya integer, float, char, dan boolean.
 
 ### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!]
@@ -260,10 +260,10 @@ Kode di atas adalah kode kalkulasi sederhana yang menggunakan class untuk menghi
 ![Screenshot Output Unguided 2 Struct](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/a865d075-84e8-432f-8212-e4c31facdd8f)
 Kode di atas menampilkan penggunaan struct untuk menyimpan data buku. Struct membantu dalam mengelompokkan data terkait dan mudah diakses, struct Buku_amanda_windhu_gustyas mendeklarasikan struct bernama Buku_ amanda_windhu_gutyas.
 
-A. Fungsi Class
+A. Fungsi Class<br/>
 Class untuk membangun berbagai objek dengan kemiripan dalam data, fungsi, dan relasi sehingga mempermudah pengelolaan data.
 
-B. Fungsi Struct
+B. Fungsi Struct<br/>
 Struct berguna untuk mengelompokkan data terkait dalam pemrograman, struct umumnya tidak memiliki enkapsulasi data yang ketat seperti class, yang artinya anggota struct bisa langsung diakses dari luar, sedangkan class biasanya diakses melalui metode.
 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!]
@@ -310,16 +310,16 @@ int main() {
 ![Screenshot Output Unguided 3](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/9d2dc5e7-98e5-4f25-91db-1893c20ba0f6)
 Kode di atas menampilkan penggunaan strutur data struct dan map untuk menyimpan data pemesanan tiket kereta. struct Pemesanan_amanda mendeklrasikan struktur bernama Pemesanan_amanda dengan 5 anggota yang bertipe data string. map<string, Pemesanan_amanda> pemesanan_tiket_kereta mendeklarasikan variabel pemesanan_tiket_kereta bertipe map dengan key bertipe string (nomor pemesanan) dan value bertipe Pemesanan_amanda. Dua contoh data pemesanan tiket ditambahkan ke pemesanan_tiket_kereta dengan key nomor pemesanan.
 
-Perbedaan Array dengan Map :
-1. Struktur
-   - Array deretan elemennya berurutan
+Perbedaan Array dengan Map :<br/>
+1. Struktur<br/>
+   - Array deretan elemennya berurutan<br/>
    - Map elemenya disimpan dalam struktur data yang lebihh kompleks, seperti hash-table.     
-   Koleksi pasangan berupa key-value.
-2. Kemampuan
-   - Array tidak memiliki kemampuan bawaan untuk mencari elemen berdasarkan nilai.
-   - Map menyediakan fungsi bawaan untuk mencari, menambahkan, dan menghapus elemen 
+   Koleksi pasangan berupa key-value.<br/>
+2. Kemampuan<br/>
+   - Array tidak memiliki kemampuan bawaan untuk mencari elemen berdasarkan nilai.<br/>
+   - Map menyediakan fungsi bawaan untuk mencari, menambahkan, dan menghapus elemen<br/>
    berdasarkan key dan value.
-3. Akses Data
+3. Akses Data<br/>
    - Array menggunakan indeks.
    - Map menggunakan key.
 
@@ -331,5 +331,5 @@ Tipe data koleksi contohnya array, map, dan vector.
 Mempelajari tipe data merupakan hal penting bagi programer, pemahaman yang baik tentang tipe data membantu dalam membangun program yang lebih handal, efisien, dan mudah dipahami.
 
 ## Referensi
-[1] Dwi Putra, Muhammad Taufik, Deden Paradeka, dan Ana Rahma Yuniarti. (2022). Belajar Dasar Pemrograman dengan C++. Bandung: Widina.
+[1] Dwi Putra, Muhammad Taufik, Deden Paradeka, dan Ana Rahma Yuniarti. (2022). Belajar Dasar Pemrograman dengan C++. Bandung: Widina. <br/>
 [2] Triase (2020). Struktur Data. Medan: Universitas Islam Negeri Sumatera Utara.
