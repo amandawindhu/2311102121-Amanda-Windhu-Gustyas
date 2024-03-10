@@ -88,7 +88,7 @@ Kode di atas adalah kode hitung, kurang, kali, dan bagi dua bilangan yang diinpu
 #include <stdio.h> // menyediakan fungsi standar seperti printf
 #include <string.h> // menyediakanfungsi untuk manipulasi string seperti strcpy
 
-// deklarasi struct bernama 'Mahasiswa'
+// deklarasi struct
 struct Mahasiswa_121_amanda
 {
     char name_amanda[50];
@@ -98,7 +98,7 @@ struct Mahasiswa_121_amanda
 int main()
 {
 
-// deklarasi variabel-variabel bertipe struct 'Mahasiswa'
+// deklarasi variabel-variabel bertipe struct 
 struct Mahasiswa_121_amanda mhs1, mhs2;
 // mengisi nilai ke struct
 strcpy(mhs1.name_amanda, "Dian");
