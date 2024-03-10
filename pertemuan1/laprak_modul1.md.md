@@ -1,7 +1,3 @@
-
-# <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
-<p align="center">Amanda Windhu Gustyas-2311102121</p>
-
 # <h1 align="center">Laporan Praktikum Modul 1 Tipe Data</h1>
 <p align="center">Amanda Windhu Gustyas - 2311102121</p>
 
