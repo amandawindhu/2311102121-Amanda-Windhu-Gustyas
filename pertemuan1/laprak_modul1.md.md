@@ -125,7 +125,7 @@ Kode di atas digunakan untuk menampilkan isi dari fungsi struct.
 
 ### 3. [Tipe Data Koleksi]
 
-'''C++
+```C++
 #include <iostream> // untuk operasi input output
 #include <array> // untuk menyediakan array statis dengan ukuran tetap
 using namespace std; // agar elemen cout dan cin dapat langsung ditulis tanpa menggunakan std
