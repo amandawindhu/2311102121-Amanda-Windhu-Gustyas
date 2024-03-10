@@ -5,18 +5,18 @@
 
 Tipe data adalah kategori yang membantu komputer memahami jenis data yang disimpan dalam variabel. Hal ini memungkinkan komputer untuk memproses data dengan cara yang tepat dan menghindari kesalahan. Berikut ada tipe data yang akan dipelajari : 
 
-1. Tipe Data Primitif
+1. Tipe Data Primitif<br/>
 Tipe data primitif adalah tipe data yang sederhana dan disediakan oleh bahasa pemrograman. Contoh tipe data primitif :
-    a. Int merupakan tipe data numerik untuk menyimpan bilangan bulat.
-    b. Float merupakan tipe data untuk menyimpan bilangan desimal.
+    a. Int merupakan tipe data numerik untuk menyimpan bilangan bulat.<br/>
+    b. Float merupakan tipe data untuk menyimpan bilangan desimal.<br/>
     c. Char adalah karakter tunggal yang pendefinisiannya di awal dan di akhir menggunakan     
-       tanda petik tunggal.
-    d. Boolean merupakan tipe data yang terdiri dari dua nilai saja, yaitu true dan false.
+       tanda petik tunggal.<br/>
+    d. Boolean merupakan tipe data yang terdiri dari dua nilai saja, yaitu true dan false.<br/>
 
-2. Tipe Data Abstrak
+2. Tipe Data Abstrak<br/>
 Tipe data abstrak atau tipe data yang dikenal Abstrack data Type (ADT) adalah suatu tipe data yang merujuk pada sejumlah bentuk struktur data yang memiliki kegunaan serupa. TDA berfokus pada apa yang dapat dilakukan dengan struktur data, bukan bagaimana strukturnya diimplementasikan dalam memori komputer.
 
-3. Tipe Data Koleksi
+3. Tipe Data Koleksi<br/>
 Tipe data koleksi (Collection Data Type) adalah adalah tipe data yang digunakan untuk menyimpan dan mengelompokan beberapa data dengan jenis yang sama atau berbeda. Berikut merupakan tipe data koleksi yang umum digunakan :
     a. Array merupakan kumpulan data yang bertipe sama yang menggunakan nama yang sama.
     b. Vector adalah struktur data yang sama dengan array untuk menyimpan data dalam bentuk
