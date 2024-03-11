@@ -75,7 +75,7 @@ int main()
     } 
     return 0; // mengembalikan nilai 0
 }
-'''
+```
 Kode di atas adalah kode hitung, kurang, kali, dan bagi dua bilangan yang diinputkan oleh user. Kode diatas menggunakan tipe data primitif char dan float.
 
 ### 2. [Tipe Data Abstrak]
@@ -144,7 +144,7 @@ int main() {
 
     return 0;
 }
-'''
+```
 Kode di atas digunakan untuk menampilkan isi dari sebuah array, dimana output yang dihasilkan berupa bilangan yang sudah dimasukkan kedalam index.
 
 ## Unguided 
