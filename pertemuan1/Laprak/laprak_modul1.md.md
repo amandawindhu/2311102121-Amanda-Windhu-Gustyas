@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
-<p align="center">Amanda Windhu Gustyas-2311102121</p>
-=======
 # <h1 align="center">Laporan Praktikum Modul 1 Tipe Data</h1>
 <p align="center">Amanda Windhu Gustyas - 2311102121</p>
->>>>>>> b0d867b560a983419f12979e05a51d0eabbe0627
+
 
 ## Dasar Teori
 
@@ -79,16 +75,16 @@ int main()
     } 
     return 0; // mengembalikan nilai 0
 }
-'''
+```
 Kode di atas adalah kode hitung, kurang, kali, dan bagi dua bilangan yang diinputkan oleh user. Kode diatas menggunakan tipe data primitif char dan float.
 
 ### 2. [Tipe Data Abstrak]
 
-'''C++
+```C++
 #include <stdio.h> // menyediakan fungsi standar seperti printf
 #include <string.h> // menyediakanfungsi untuk manipulasi string seperti strcpy
 
-// deklarasi struct bernama 'Mahasiswa'
+// deklarasi struct
 struct Mahasiswa_121_amanda
 {
     char name_amanda[50];
@@ -98,7 +94,7 @@ struct Mahasiswa_121_amanda
 int main()
 {
 
-// deklarasi variabel-variabel bertipe struct 'Mahasiswa'
+// deklarasi variabel-variabel bertipe struct 
 struct Mahasiswa_121_amanda mhs1, mhs2;
 // mengisi nilai ke struct
 strcpy(mhs1.name_amanda, "Dian");
@@ -120,12 +116,12 @@ printf("Alamat: %s\n", mhs2.address_amanda);
 printf("Umur: %d\n", mhs2.age_amanda);
 return 0; // mengembalikan nilai 0
 }
-'''
+```
 Kode di atas digunakan untuk menampilkan isi dari fungsi struct.
 
 ### 3. [Tipe Data Koleksi]
 
-'''C++
+```C++
 #include <iostream> // untuk operasi input output
 #include <array> // untuk menyediakan array statis dengan ukuran tetap
 using namespace std; // agar elemen cout dan cin dapat langsung ditulis tanpa menggunakan std
@@ -148,7 +144,7 @@ int main() {
 
     return 0;
 }
-'''
+```
 Kode di atas digunakan untuk menampilkan isi dari sebuah array, dimana output yang dihasilkan berupa bilangan yang sudah dimasukkan kedalam index.
 
 ## Unguided 
@@ -205,7 +201,7 @@ Tipe data primitif adalah tipe data yang tidak bisa diubah nilainya, contohnya i
 
 ### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!]
 
-'''C++
+```C++
 // contoh program class
 #include <iostream> // untuk operasi input output
 using namespace std; // agar elemen cout dan cin dapat langsung ditulis tanpa menggunakan std
@@ -227,9 +223,9 @@ int main() {
     cout << obj.kali_121() << endl; //pemanggilan objek
     return 0; //mengembalikan nilai 0
 }
-'''
+```
 
-'''C++
+```C++
 // contoh program struct
 #include <iostream> // untuk operasi input output
 #include <string> // memungkinkan program menggunakan tipe data string
@@ -257,7 +253,7 @@ int main(){
 
     return 0; // mengembalikan nilai 0
 }
-'''
+```
 ### Output Class:
 ![Screenshot Output Unguided 2 Class](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/2635ff83-7013-4964-bd2b-26277e824058)
 Kode di atas adalah kode kalkulasi sederhana yang menggunakan class untuk menghitung perkalian dari tiga variabel a, b, c dengan nilai 31, 2, 23, class kalkulasi_amanda_121 mendeklarasikan class bernama Kalkulasi_amanda_121, variabel a, b, dan c dideklarasikan sebagai variabel privat, dan fungsi kali_121() dideklarasikan sebagai fungsi public.
@@ -273,7 +269,7 @@ Struct berguna untuk mengelompokkan data terkait dalam pemrograman, struct umumn
 
 ### 3. [Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!]
 
-'''C++
+```C++
 #include <iostream> // untuk operasi input output
 #include <map> // untuk menyimpan data dalam struktur pasangan key-value
 #include <string> // memungkinkan program menggunakan tipe data string
@@ -310,7 +306,7 @@ int main() {
 
     return 0; // mengembalikan nilai 0
 }
-'''
+```
 ### Output:
 ![Screenshot Output Unguided 3](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/9d2dc5e7-98e5-4f25-91db-1893c20ba0f6)
 Kode di atas menampilkan penggunaan strutur data struct dan map untuk menyimpan data pemesanan tiket kereta. struct Pemesanan_amanda mendeklrasikan struktur bernama Pemesanan_amanda dengan 5 anggota yang bertipe data string. map<string, Pemesanan_amanda> pemesanan_tiket_kereta mendeklarasikan variabel pemesanan_tiket_kereta bertipe map dengan key bertipe string (nomor pemesanan) dan value bertipe Pemesanan_amanda. Dua contoh data pemesanan tiket ditambahkan ke pemesanan_tiket_kereta dengan key nomor pemesanan.
