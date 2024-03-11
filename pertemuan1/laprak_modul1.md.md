@@ -116,7 +116,7 @@ printf("Alamat: %s\n", mhs2.address_amanda);
 printf("Umur: %d\n", mhs2.age_amanda);
 return 0; // mengembalikan nilai 0
 }
-'''
+```
 Kode di atas digunakan untuk menampilkan isi dari fungsi struct.
 
 ### 3. [Tipe Data Koleksi]
