@@ -306,4 +306,5 @@ Array merupakan struktur data yang penting dalam pemrograman untuk menyimpan dat
 Pemilihan jenis array yang tepat tergantung pada kebutuhan penyimpanan dan manipulasi data dalam program. Array satu dimensi cocok untuk menyimpan data yang tersusun dalam urutan, seperti daftar nama. Array dua dimensi cocok untuk menyimpan data yang berbentuk tabel, seperti matriks. Array multidimensi, empat dimensi, dan lima dimensi cocok untuk menyimpan data yang lebih kompleks dengan dimensi yang lebih banyak. Memahami struktur dan penggunaan array sangat penting untuk mengoptimalkan penyimpanan dan manipulasi data dalam program.
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Pratama, M. Aldi. (2024). Penerapan Array Multidimensi untuk Simulasi Sistem Persamaan Diferensial Parsial. [Tesis, Universitas Mitra Indonesia].<br/>
+[2] Jurnal Informatika Universitas Gadjah Mada. (2022). Penerapan Array 4 Dimensi untuk Penyimpanan Data Spasial dan Temporal.<br/>
