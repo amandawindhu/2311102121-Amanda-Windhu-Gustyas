@@ -86,7 +86,7 @@ cout << endl;
 }
 }
 ```
-Program tersebut adalah contoh program C++ yang menggunakan array tiga dimensi untuk menginputkan dan menampilkan elemen-elemen array. Array tersebut memiliki ukuran 2x3x3. Program ini terdiri dari loop untuk menginputkan nilai-nilai array, loop untuk menampilkan nilai-nilai array, dan loop untuk menampilkan nilai-nilai array dalam format yang lebih terstruktur.
+Program tersebut adalah contoh program C++ yang menggunakan array tiga dimensi untuk menginputkan dan menampilkan elemen-elemen array. Array tersebut memiliki 2 baris dan setiap barisnya memiliki 3 baris dan 3 kolom. Program ini terdiri dari loop untuk menginputkan nilai-nilai array, loop untuk menampilkan nilai-nilai array, dan loop untuk menampilkan nilai-nilai array dalam format yang lebih terstruktur.
 
 ### 2. [Mencari Nilai Maksimal pada Array]
 
