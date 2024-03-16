@@ -174,7 +174,7 @@ int main(){
     
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![SS_Unguided1_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3284bfb9-5d5c-472f-910d-ce984ca1acfd)
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
@@ -215,6 +215,7 @@ int main() {
 }
 ```
 ### Output:
+![SS_Unguided2_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/782a759c-cd10-4a58-92dc-5caf5f837e11)
 
 ### 3. [Buatlah program menu untuk mencari nilai maksimum, minimum dan nilai rata - rata dari suatu array dengan input yang dimasukan oleh user!]
 
@@ -288,6 +289,7 @@ int main() {
 }
 ```
 ### Output:
+![SS_Unguided3_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/9c098126-818e-4648-9bb3-b550cc8efed4)
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
