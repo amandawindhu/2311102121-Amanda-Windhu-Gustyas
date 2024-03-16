@@ -3,8 +3,35 @@
 
 ## Dasar Teori
 
-Berikan penjelasan teori terkait materi modul ini dengan bahasa anda sendiri serta susunan yang terstruktur per topiknya.
-
+Array adalah struktur data yang menyimpan sekumpulan data dengan tipe sama, tersusun berurutan dalam memori komputer. Kecocokan array terletak pada organisasinya terhadap data homogen dengan jumlah elemen yang diketahui sejak awal.<br/>
+Array dibagi menjadi:<br/>
+    1) Array Satu Dimensi<br/>
+    Array satu dimensi adalah struktur data yang terdiri dari elemen-elemen dengan tipe data
+    sama, tersusun dalam satu baris, dan boleh memiliki nilai yang berbeda-beda. Istilah lain
+    untuk array satu dimensi adalah vektor, yang menggambarkan data yang tersusun dalam
+    urutan. Deklarasi array satu dimensi menggunakan format Type_Data Nama_Variabel [index],
+    di mana Type_Data adalah jenis data elemen, Nama_Variabel adalah nama array, dan index
+    adalah penunjuk untuk mengakses elemen array. Contohnya, int A[5] mendeklarasikan array
+    dengan tipe data int dan memiliki 5 elemen.<br/>
+    2) Array Dua Dimensi<br/>
+    Array dua dimensi, sering digambarkan sebagai matriks, merupakan pengembangan dari array
+    satu dimensi. Jika array satu dimensi hanya terdiri dari satu baris dengan beberapa kolom
+    elemen, maka array dua dimensi memiliki beberapa baris dan beberapa kolom elemen dengan
+    tipe data yang sama. Deklarasi array dua dimensi mirip dengan array satu dimensi, namun
+    terdapat dua jumlah elemen array di dalam kurung siku dan keduanya boleh tidak sama.
+    Contohnya, int A[3][2] mendeklarasikan array A dengan tipe data int yang memiliki 3 baris
+    dan 2 kolom.<br/>
+    3) Array Multidimensi<br/>
+    Aray multidimensi merupakan struktur data yang memungkinkan penyimpanan data dalam bentuk
+    struktur yang lebih kompleks, dengan lebih dari dua dimensi. Array ini merupakan perluasan
+    dari array satu dan dua dimensi.<br/>
+    4) Array Empat Dimensi<br/>
+    Array 4 dimensi merupakan struktur data yang memungkinkan penyimpanan data dalam bentuk
+    tabel dengan 4 dimensi. Ini merupakan perluasan dari array satu, dua, dan tiga dimensi.        <br/>
+    5) Array Lima Dimensi<br/>
+    Array 5 dimensi adalah struktur data yang memungkinkan penyimpanan data dalam bentuk tabel
+    dengan 5 dimensi. Ini merupakan perluasan dari array satu, dua, tiga, dan empat dimensi.<br/>
+    
 ## Guided 
 
 ### 1. [Array Tiga Dimensi]
@@ -99,6 +126,7 @@ int main() {
 ## Unguided 
 
 ### 1. [Buatlah program untuk menampilkan output seperti berikut dengan data yang diinputkan oleh user!]
+![SS 1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/d647166a-5e19-4801-b639-ffeb943027b1)
 
 ```C++
 // Oleh Amanda Windhu Gustyas - 2311102121
