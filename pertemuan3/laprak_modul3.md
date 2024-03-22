@@ -749,13 +749,13 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 
 ### 2. Soal Double Linked List<br/>
 Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga.<br/>
-    Nama                Produk Harga<br/>
-Originote                  60.000<br/>
-Somethinc                  150.000<br/>
-Skintific                  100.000<br/>
-Wardah                     50.000<br/>
-Hanasui                    30.000<br/>
-Case:<br/>
+    Nama<br/>                Produk Harga<br/>
+Originote<br/>                  60.000<br/>
+Somethinc<br/>                  150.000<br/>
+Skintific<br/>                  100.000<br/>
+Wardah<br/>                     50.000<br/>
+Hanasui<br/>                    30.000<br/>
+Case:
 1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific.<br/>
 2. Hapus produk wardah.<br/>
 3. Update produk Hanasui menjadi Cleora dengan harga 55.000<br/>
