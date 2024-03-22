@@ -86,7 +86,7 @@ cout << endl;
 }
 }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program tersebut adalah contoh program C++ yang menggunakan array tiga dimensi untuk menginputkan dan menampilkan elemen-elemen array. Array tersebut memiliki 2 baris dan setiap barisnya memiliki 3 baris dan 3 kolom. Program ini terdiri dari loop untuk menginputkan nilai-nilai array, loop untuk menampilkan nilai-nilai array, dan loop untuk menampilkan nilai-nilai array dalam format yang lebih terstruktur.
 
 ### 2. [Mencari Nilai Maksimal pada Array]
 
@@ -121,7 +121,7 @@ int main() {
     return 0;
 }
 ```
-
+Program tersebut merupakan program C++ yang meminta pengguna untuk memasukkan panjang array, kemudian meminta pengguna untuk memasukkan angka-angka ke dalam array. Setelah array terisi, program mencari nilai maksimum di dalam array beserta lokasinya. Nilai maksimum dan lokasinya kemudian ditampilkan kepada pengguna.
 
 ## Unguided 
 
@@ -175,8 +175,7 @@ int main(){
 ```
 #### Output:
 ![SS_Unguided1_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3284bfb9-5d5c-472f-910d-ce984ca1acfd)
-
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program tersebut merupakan program C++ yang meminta pengguna untuk memasukkan data ke dalam array dengan panjang 10 elemen. Setelah semua data dimasukkan, program memisahkan angka genap dan ganjil dari array tersebut, dan menyimpannya dalam array yang terpisah. Kemudian, program mencetak angka genap dan angka ganjil tersebut.
 
 ### 2. [Buatlah program input array tiga dimensi (seperti pada guided) tetapi jumlah atau ukuran elemennya diinputkan oleh user!]
 
@@ -216,6 +215,7 @@ int main() {
 ```
 ### Output:
 ![SS_Unguided2_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/782a759c-cd10-4a58-92dc-5caf5f837e11)
+Program tersebut adalah program C++ yang menggunakan array tiga dimensi. Program ini meminta pengguna untuk memasukkan nilai ke dalam array tiga dimensi dengan ukuran 2x3x3. Setelah semua nilai dimasukkan, program menampilkan isi array tersebut.
 
 ### 3. [Buatlah program menu untuk mencari nilai maksimum, minimum dan nilai rata - rata dari suatu array dengan input yang dimasukan oleh user!]
 
@@ -290,9 +290,21 @@ int main() {
 ```
 ### Output:
 ![SS_Unguided3_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/9c098126-818e-4648-9bb3-b550cc8efed4)
+Program tersebut adalah program C++ yang memungkinkan pengguna untuk memasukkan sejumlah elemen ke dalam sebuah array. Setelah memasukkan elemen-elemen tersebut, pengguna dapat memilih dari beberapa opsi yang tersedia, yaitu mencari nilai maksimum, nilai minimum, atau nilai rata-rata dari elemen-elemen array yang telah dimasukkan. Program akan terus menampilkan menu dan memproses pilihan pengguna sampai pengguna memilih untuk keluar.
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Array merupakan struktur data yang penting dalam pemrograman untuk menyimpan data dengan tipe sama dan tersusun berurutan dalam memori komputer. Array dibagi menjadi beberapa jenis berdasarkan dimensinya, yaitu array satu dimensi, dua dimensi, multidimensi, empat dimensi, dan lima dimensi.<br/>
+* Keuntungan Array:<br/>
+1. Memudahkan penyimpanan data homogen dalam jumlah banyak.<br/>
+2. Akses data yang efisien dengan menggunakan indeks.<br/>
+3. Memudahkan manipulasi data dengan algoritma yang dirancang untuk struktur array.<br/>
+* Kekurangan Array:<bt/>
+1. Ukuran array harus ditentukan pada saat deklarasi.<br/>
+2. Mengubah ukuran array setelah deklarasi bisa jadi rumit.<br/>
+3. Kurang efisien untuk menyimpan data heterogen.<br/>
+
+Pemilihan jenis array yang tepat tergantung pada kebutuhan penyimpanan dan manipulasi data dalam program. Array satu dimensi cocok untuk menyimpan data yang tersusun dalam urutan, seperti daftar nama. Array dua dimensi cocok untuk menyimpan data yang berbentuk tabel, seperti matriks. Array multidimensi, empat dimensi, dan lima dimensi cocok untuk menyimpan data yang lebih kompleks dengan dimensi yang lebih banyak. Memahami struktur dan penggunaan array sangat penting untuk mengoptimalkan penyimpanan dan manipulasi data dalam program.
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Pratama, M. Aldi. (2024). Penerapan Array Multidimensi untuk Simulasi Sistem Persamaan Diferensial Parsial. [Tesis, Universitas Mitra Indonesia].<br/>
+[2] Jurnal Informatika Universitas Gadjah Mada. (2022). Penerapan Array 4 Dimensi untuk Penyimpanan Data Spasial dan Temporal.<br/>
