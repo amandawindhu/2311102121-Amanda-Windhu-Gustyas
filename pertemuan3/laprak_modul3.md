@@ -743,7 +743,7 @@ int main() {
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![Unguided1_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/073d4086-33e7-4845-a611-721688647bf1)
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
@@ -1048,6 +1048,7 @@ int main() {
 }
 ```
 #### Output:
+![Unguided2_Amanda](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/5d6dfffb-b614-461e-a6d9-3cf4c57f1375)
 
 Kode diatas .....
 
