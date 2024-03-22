@@ -25,14 +25,14 @@
    tersebut, dan NEXT (link field/next pointer field) yang menyimpan alamat dari node (elemen)
    berikutnya yang dituju. Berikut adalah contoh Single Linked List yang terdiri atas 4 node.<br/>
 
-   ![Single Linked List](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/4f99a614-bf6e-4566-a11f-aa559d4b5d5c)
+   ![Single Linked List](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/4f99a614-bf6e-4566-a11f-aa559d4b5d5c)<br/>
    Pada node ke-4 field NEXT-nya berisi NULL, artinya node ke-4 tersebut adalah node terakhir.<br/>
 
 3) Pengertian Double Linked List<br/>
    Double Linked List adalah jenis struktur data di mana setiap node (elemen) memiliki referensi ke node (elemen) sebelumnya (PREV) dan node berikutnya (NEXT).
    Beberapa algoritma membutuhkan penggunaan tautan ganda, seperti saat melakukan sorting dan reverse traversing.<br/>
    
-   ![Double Linked List](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/f50dcfb1-b9d0-428d-8abd-604688e72628)
+   ![Double Linked List](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/f50dcfb1-b9d0-428d-8abd-604688e72628)<br/>
    Tiap node memiliki pointer yang menunjuk ke node sesudahnya dan pointer yang menunjuk ke
    node sebelumnya.<br/>
    Berikut contoh apabila Double Linked List kosong:<br/>
