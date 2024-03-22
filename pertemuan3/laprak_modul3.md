@@ -1,9 +1,21 @@
-# <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
-<p align="center">Arvinanto Bahtiar</p>
+# <h1 align="center">Laporan Praktikum Modul Single and Double Linked List</h1>
+<p align="center">Amanda Windhu Gustyas - 2311102121</p>
 
 ## Dasar Teori
+1) Pengertian Linked List<br/>
+    Linked list adalah struktur data yang terdiri dari sekelompok elemen data dengan tipe yang     sama, di mana setiap elemen terhubung satu sama lain melalui penggunaan pointer. Pointer ini     merupakan alamat dari elemen data yang disimpan di memori. Dengan menggunakan pointer,         elemen-elemen dalam linked list dapat terhubung secara logis meskipun tidak berada dalam
+   urutan fisik di memori. Linked list terbentuk dari simpul-simpul yang saling terhubung, di
+   mana setiap simpul direpresentasikan sebagai struktur (struct) dan tautan (link) yang berupa
+   pointer menuju simpul lainnya. Dalam penggunaannya, terdapat dua jenis pointer yang umum
+   digunakan, yaitu head (yang menunjukkan alamat pointer pertama) dan tail (yang menunjukkan
+   simpul terakhir). Ketika operasi penambahan atau penghapusan simpul dilakukan, nilai dari
+   pointer link diubah sesuai dengan perubahan tersebut. Selain itu, pada simpul terakhir,
+   nilai dari pointer link biasanya diberi nilai null.<br/>
+   ![SS_LINKED LIST](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/cf77c69a-d7a7-4014-89dc-989574b853d9)
 
-Berikan penjelasan teori terkait materi modul ini dengan bahasa anda sendiri serta susunan yang terstruktur per topiknya.
+2) Pengertian Double Linked List<br/>
+    
+
 
 ## Guided 
 
