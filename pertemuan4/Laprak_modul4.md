@@ -74,6 +74,9 @@
         cout<<"\nDisipkan setelah : ";
         cin>>cari;
        ```
+    d) Hapus Tengah<br/>
+    Hapus tengah membutuhkan 2 fungsi yang pertama untuk mengiput data yang akan dihapus dan fungsi yang akan menghapus list. Fungsi ``` carihapus()``` akan menjadi fungsi untuk membawa parameter
+    atau nilai yang akan dihapus sementara fungsi ```hapustengah(int info)``` akan menghapus data  yang  sesuai  dengan  isi  dari info yang dibawa oleh fungsi ```carihapus()```.
 ## Guided 
 
 ### 1. [Nama Topik]
