@@ -49,14 +49,15 @@
     c) Tambah Tengah<br/>
     Penambahan elemen di tengah linked list berguna ketika kita sudah memasukkan beberapa data tetapi kemudian menyadari bahwa ada data yang terlewat untuk dimasukkan dan seharusnya ditempatkan di antara data
     yang sudah dimasukkan sebelumnya.<br/>
-        void sisip_list(struct simpul *first,int x,int posisi<br/>
-        {<br/>
-        struct simpul *bantu,*baru;<br/>
-        baru = new simpul;<br/>
-        baru->angka=x;<br/>
-        bantu=first;<br/>
-        do<br/>
-        {<br/> 
+       ```
+        void sisip_list(struct simpul *first,int x,int posisi
+        {
+        struct simpul *bantu,*baru;
+        baru = new simpul;
+        baru->angka=x;
+        bantu=first;
+        do
+        {
         if (posisi!=bantu->angka) 
         {bantu=bantu->berikut;}
         }
@@ -72,6 +73,7 @@
         cin>>ganti;
         cout<<"\nDisipkan setelah : ";
         cin>>cari;
+       ```
 ## Guided 
 
 ### 1. [Nama Topik]
