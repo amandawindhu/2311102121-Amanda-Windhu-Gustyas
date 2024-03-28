@@ -76,7 +76,47 @@
        ```
     d) Hapus Tengah<br/>
     Hapus tengah membutuhkan 2 fungsi yang pertama untuk mengiput data yang akan dihapus dan fungsi yang akan menghapus list. Fungsi ``` carihapus()``` akan menjadi fungsi untuk membawa parameter
-    atau nilai yang akan dihapus sementara fungsi ```hapustengah(int info)``` akan menghapus data  yang  sesuai  dengan  isi  dari info yang dibawa oleh fungsi ```carihapus()```.
+    atau nilai yang akan dihapus sementara fungsi ```hapustengah(int info)``` akan menghapus data  yang  sesuai  dengan  isi  dari info yang dibawa oleh fungsi ```carihapus()```.<br/>
+       ```
+       void hapustengah(int info)
+      {
+      titik *bantu,*hapus;
+      bantu=awal;
+      while ((info!=bantu->berikut->angka) && (bantu->berikut!=NULL))
+      {
+      bantu=bantu->berikut;
+      }
+      hapus=bantu->berikut;
+      bantu->berikut=hapus->berikut;
+      delete hapus;
+      }
+      void carihapus()
+      {
+      int cari;
+      clrscr();
+      tampillist();
+      cout<<"\nData yang akan dihapus, Bilangan :";
+      cin>>cari;
+      hapustengah(cari);
+      cout<<"\nData menjadi :";
+      tampillist();
+      }
+      ```
+    e) Hapus Depan<br/>
+    Hapus depan sebenarnya sangat simple karena bisa langsung menghapus ```*awal```, namun disela itu sebelum menghapus ```*awal``` harus mengganti ```*awal``` dengan pointer berikutnya sehingga ketika
+    ditampilkan, data masih terlihat.<br/>
+       ```
+       Void hapusdepan()
+       {
+       Simpul *hapus;
+       Hapus=awal;
+       Awal=hapus->berikut;
+       Delete hapus;
+      }
+      ```
+   f) Hapus Semua<br/>
+    
+    
 ## Guided 
 
 ### 1. [Nama Topik]
