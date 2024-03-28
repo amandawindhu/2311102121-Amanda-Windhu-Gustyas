@@ -8,12 +8,12 @@
    dalam linked list. Ketika membuat elemen baru, kedua pointer (next dan prev) diinisialisasi dengan nilai NULL, menandakan bahwa elemen baru tidak terhubung dengan elemen lainnya. Selanjutnya, pointer prev
    diarahkan ke elemen sebelumnya dalam linked list, sementara pointer next diarahkan ke elemen berikutnya dalam linked list.<br/>
         Deklasari simpul :<br/>
-        ```C++
-        Struct node<br/>
-        int angka;<br/>
-        node *next;<br/>
-        };<br/>
-       ```
+        ```
+        Struct node
+        int angka;
+        node *next;
+        };
+       ```<br/>
   - Operasi pada linked list non circular<br/>
     a) Tambah Depan<br/>
     Ketika data baru ditambahkan, head (simpul awal) linked list akan diarahkan ke data baru tersebut. Data baru ini kemudian akan menunjuk ke data yang sebelumnya berada di posisi head. Otomatis, data lama akan
