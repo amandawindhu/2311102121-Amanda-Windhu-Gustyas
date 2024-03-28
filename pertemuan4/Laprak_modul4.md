@@ -31,19 +31,21 @@
     b) Tambah Belakang<br/>
     Pada dasarnya, konsepnya mirip dengan antrian, di mana elemen yang pertama masuk adalah yang pertama keluar. Dalam konteks linked list, elemen lama akan tetap berada di awal untuk elemen-elemen baru, sehingga
     elemen pertama yang dimasukkan akan tetap menjadi yang pertama, dan elemen-elemen baru akan terus ditambahkan setelah elemen sebelumnya.<br/>
-        void tambahbelakang(int x)<br/>
-        {<br/>
-        struct simpul *baru;<br/>
-        baru=new simpul;<br/>
-        baru->angka=x;<br/>
-        if(awal==NULL){awal=baru;<br/>
-        }<br/>
-        else{akhir->berikut=baru;}<br/>
-        akhir=baru;<br/>
-        akhir->berikut=NULL;<br/>
-        }<br/>
-        sisip_list(awal,ganti,cari);<br/>
-        }<br/>
+       ```
+        void tambahbelakang(int x)
+        {
+        struct simpul *baru;
+        baru=new simpul;
+        baru->angka=x;
+        if(awal==NULL){awal=baru;
+        }
+        else{akhir->berikut=baru;}
+        akhir=baru;
+        akhir->berikut=NULL;
+        }
+        sisip_list(awal,ganti,cari);
+        }
+       ```
     c) Tambah Tengah<br/>
     Penambahan elemen di tengah linked list berguna ketika kita sudah memasukkan beberapa data tetapi kemudian menyadari bahwa ada data yang terlewat untuk dimasukkan dan seharusnya ditempatkan di antara data
     yang sudah dimasukkan sebelumnya.<br/>
