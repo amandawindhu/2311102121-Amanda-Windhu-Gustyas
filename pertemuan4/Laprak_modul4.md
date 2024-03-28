@@ -13,19 +13,21 @@
         int angka;
         node *next;
         };
-       ```<br/>
+       ```
   - Operasi pada linked list non circular<br/>
     a) Tambah Depan<br/>
     Ketika data baru ditambahkan, head (simpul awal) linked list akan diarahkan ke data baru tersebut. Data baru ini kemudian akan menunjuk ke data yang sebelumnya berada di posisi head. Otomatis, data lama akan
     berpindah ke posisi setelah data baru.<br/>
-        void tambahdepan(int x)<br/>
-        {<br/>
-        struct titik *baru;<br/>
-        baru=new titik;<br/>
-        baru->angka=x;<br/>
-        baru->berikut=awal;<br/>
-        awal=baru;<br/>
-        }<br/>
+       ```
+        void tambahdepan(int x)
+        {
+        struct titik *baru;
+        baru=new titik;
+        baru->angka=x;
+        baru->berikut=awal;
+        awal=baru;
+        }
+       ```
     b) Tambah Belakang<br/>
     Pada dasarnya, konsepnya mirip dengan antrian, di mana elemen yang pertama masuk adalah yang pertama keluar. Dalam konteks linked list, elemen lama akan tetap berada di awal untuk elemen-elemen baru, sehingga
     elemen pertama yang dimasukkan akan tetap menjadi yang pertama, dan elemen-elemen baru akan terus ditambahkan setelah elemen sebelumnya.<br/>
