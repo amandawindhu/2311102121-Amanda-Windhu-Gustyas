@@ -1257,10 +1257,22 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 ![Tambah Belakang](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8de04678-43fb-44be-96c8-2202a7f36306)
 - Operasi Tambah Tengah<br/>
 ![Tambah Tengah](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/a9e87b88-4430-4ea5-97cd-65f1f60fad7b)
-
-
-
-
+- Tampilan Hapus Data<br/>
+![Tampilan Hapus Data](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/6ea5b548-c1a3-48a3-a4dd-a814334eaa60)
+- Hapus Depan<br/>
+![Hapus Depan](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3de5b65a-88ae-4c2e-add6-eb625f8f6256)
+- Hapus Tengah<br/>
+![Hapus Tengah](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/22846cbc-3135-457a-a527-0c0f5cc50ff2)
+- Hapus Belakang<br/>
+![Hapus Belakang](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/0f4bf51e-7ae1-4a3b-b6ad-e467082a67bf)
+- Tampilan Ubah Data<br/>
+![Tampilan Ubah Data](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/be519337-a502-4798-85bf-63b19969a2ea)
+- Ubah Data Depan<br/>
+![Ubah Depan](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/60d21c67-67b1-4424-9634-992459ea4fe8)
+- Ubah Data Tengah<br/>
+![Ubah Tengah](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/91138042-083b-4fff-a884-c045b95a2436)
+- Ubah Data Belakang<br/>
+![Ubah Belakang](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/1e2d20c1-073f-4dab-a776-5d736efe7552)
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
