@@ -820,7 +820,17 @@ int main()
     return 0;
 } 
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program yang diberikan adalah implementasi dari sebuah circular linked list dalam bahasa pemrograman C++. Dalam circular linked list, setiap elemen disebut node dan setiap node memiliki dua bagian, yaitu data dan pointer ke node berikutnya. Program dimulai dengan mendeklarasikan sebuah struct `Node` yang berisi data bertipe string dan pointer ke node selanjutnya. Terdapat juga beberapa variabel pointer seperti `head`, `tail`, `baru`, `bantu`, dan `hapus` yang digunakan dalam operasi-operasi pada linked list.
+Fungsi-fungsi dasar yang ada dalam program ini antara lain:
+1. `init()` untuk menginisialisasi `head` dan `tail`.
+2. `isEmpty()` untuk memeriksa apakah linked list kosong atau tidak.
+3. `buatNode()` untuk membuat sebuah node baru dengan data yang diberikan.
+4. `hitungList()` untuk menghitung jumlah node dalam linked list.
+5. `insertDepan()`, `insertBelakang()`, dan `insertTengah()` untuk menambahkan elemen di depan, belakang, atau di posisi tengah linked list.
+6. `hapusDepan()`, `hapusBelakang()`, dan `hapusTengah()` untuk menghapus elemen di depan, belakang, atau di posisi tengah linked list.
+7. `clearList()` untuk menghapus seluruh isi linked list.
+8. `tampil()` untuk menampilkan isi linked list.
+Di dalam `main()`, program melakukan serangkaian operasi pada linked list seperti memasukkan, menghapus, dan menampilkan elemen. Setelah melakukan operasi-operasi tersebut, program mengembalikan nilai 0 yang menunjukkan bahwa program telah berakhir dengan sukses.
 
 ## Unguided 
 
