@@ -1274,6 +1274,21 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 - Ubah Data Belakang<br/>
 ![Ubah Belakang](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/1e2d20c1-073f-4dab-a776-5d736efe7552)
 
+### 2. Setelah membuat menu tersebut, masukkan data sesuai urutan berikut, lalu tampilkan data yang telah dimasukkan. (Gunakan insert depan, belakang atau tengah)
+![SS_2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/7689f1f1-345e-417f-8d19-ef5b0af5cdfd)
+
+### 3. Lakukan perintah berikut:
+a) Tambahkan data berikut diantara Farrel dan Denis: Wati 2330004<br/>
+b) Hapus data Denis<br/>
+c) Tambahkan data berikut di awal:Owi 2330000<br/>
+d) Tambahkan data berikut di akhir: David 23300100<br/>
+e) Ubah data Udin menjadi data berikut: Idin 23300045<br/>
+f) Ubah data terakhir menjadi berikut: Lucy 23300101<br/>
+g) Hapus data awal<br/>
+h) Ubah data awal menjadi berikut: Bagas 2330002<br/>
+i) Hapus data akhir<br/>
+j) Tampilkan seluruh data<br/>
+
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
 ## Kesimpulan
