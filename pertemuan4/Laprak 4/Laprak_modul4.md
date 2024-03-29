@@ -536,7 +536,18 @@ int main()
     return   0;
 }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode yang diberikan adalah implementasi dari sebuah single linked list non-circular dalam bahasa pemrograman C++. Dalam single linked list, setiap elemen disebut node dan setiap node memiliki dua bagian, yaitu data dan pointer ke node berikutnya. Kode dimulai dengan mendeklarasikan sebuah struct ```Node``` yang berisi data integer dan pointer ke node selanjutnya. Ada juga deklarasi pointer ```head``` dan ```tail``` yang menunjukkan awal dan akhir dari linked list.<br/>
+Kode memiliki beberapa fungsi dasar, di antaranya:<br/>
+1. ```init()``` untuk menginisialisasi ```head``` dan ```tail```.<br/>
+2. ```isEmpty()``` untuk memeriksa apakah linked list kosong atau tidak.<br/>
+3. ```insertDepan()``` dan ```insertBelakang()``` untuk menambahkan elemen di depan atau belakang linked list.<br/>
+4. ```hitungList()``` untuk menghitung jumlah node dalam linked list.<br/>
+5. ```insertTengah()``` untuk menambahkan elemen di posisi tengah linked list.<br/>
+6. ```hapusDepan()```, ```hapusBelakang()```, dan ```hapusTengah()``` untuk menghapus elemen di depan, belakang, atau posisi tengah linked list.<br/>
+7. ```ubahDepan()```, ```ubahBelakang()```, dan ```ubahTengah()``` untuk mengubah nilai data pada elemen di depan, belakang, atau posisi tengah linked list.<br/>
+8. ```clearList()``` untuk menghapus seluruh isi linked list.<br/>
+9. ```tampil()``` untuk menampilkan isi linked list.<br/>
+Dalam ```main()```, program melakukan serangkaian operasi pada linked list seperti memasukkan, menghapus, mengubah, dan menampilkan elemen. Setelah melakukan operasi-operasi tersebut, program mengembalikan nilai 0 yang menunjukkan bahwa program telah berakhir dengan sukses.
 
 ### 2. Linked List Circular
 
