@@ -1253,9 +1253,9 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 ![Tampilan Operasi Tambah](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/400c297d-22ed-497e-99dc-8df989823c72)
 - Operasi Tambah Depan<br/>
 ![Tambah Depan](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/c24efdd0-3bb7-404b-b8ac-23576421706d)
-- Operasi Tambah Belakang
+- Operasi Tambah Belakang<br/>
 ![Tambah Belakang](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8de04678-43fb-44be-96c8-2202a7f36306)
-- Operasi Tambah Tengah
+- Operasi Tambah Tengah<br/>
 ![Tambah Tengah](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/a9e87b88-4430-4ea5-97cd-65f1f60fad7b)
 
 
