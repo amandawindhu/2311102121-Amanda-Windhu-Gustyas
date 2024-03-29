@@ -1302,9 +1302,8 @@ j) Tampilkan seluruh data<br/>
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Dalam praktikum circular linked list dan non-circular linked list, kita mempelajari dua jenis struktur data yang berbeda dalam pemrograman. Circular linked list adalah struktur data di mana setiap node memiliki pointer yang menunjuk pada node berikutnya dan node terakhir menunjuk kembali ke node pertama, sehingga membentuk lingkaran. Sedangkan non-circular linked list adalah struktur data di mana node terakhir menunjuk pada NULL, sehingga tidak membentuk lingkaran. Kedua jenis linked list ini memiliki kelebihan dan kekurangan masingmasing. Keuntungan dari circular linked list adalah mudah untuk melakukan operasi yang melibatkan pengulangan atau penelusuran dari awal ke akhir daftar, karena tidak perlu memeriksa apakah node terakhir menunjuk pada NULL atau tidak. Sedangkan keuntungan dari non-circular linked list adalah mudah untuk menghapus elemen di akhir daftar, karena hanya perlu menetapkan pointer node sebelumnya ke NULL. Kesimpulannya, pilihan antara circular linked list atau non circular linked list tergantung pada kebutuhan aplikasi dan operasi yang akan dilakukan pada struktur data tersebut. Keduanya adalah alat yang berguna dalam pemrograman dan dapat digunakan untuk memecahkan masalah dalam berbagai aplikasi.
 
 ## Referensi
 [1] Kurniman Putra, A. (2019). List linier (linked list) dan variasinya. Dalam Struktur Data (hal. 19). Fakultas Komputer. UMitra.<br/>
 [2] Aksu, M., & Karci, A. (2019). Skip Ring/Circular Skip List: Circular Linked List Based New Data Structure. Computer Engineering and Intelligent Systems, 6(5), 35.<br/>
-
