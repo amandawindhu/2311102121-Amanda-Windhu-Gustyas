@@ -113,7 +113,7 @@
         {
     int posisi;
     cout << "----- Hapus Data -----\n";
-    cout << "1. Posisi Depan\n"<< "2. Posisi Tengah\n"<< "3. Posisi Belakang\n"<< "4. Keluar\nMasukan Pilihan: ";
+    cout << "1. Hapus Depan\n"<< "2. Hapus Tengah\n"<< "3. Hapus Belakang\n"<< "4. Keluar\nMasukan Pilihan: ";
     cin >> posisi;
     // Untuk menghapus data index ke 0 atau data list pertama
         if (posisi == 1)
@@ -121,7 +121,7 @@
                 Node *hapus;
                 if (isEmpty() == false)
             {
-                if (head->next != NULL)
+                if (head->next != NULL) 
                     {
                         hapus = head;
                         head = head->next;
@@ -315,16 +315,16 @@
             {
                 cout << "----- Tambahkan Data -----\n";
                 cout << "Masukan Posisi Data : \n";
-                cout << "1. Posisi di Depan\n";
-                cout << "2. Posisi di Belakang\n";
-                cout << "3. Posisi di Tengah\n";
+                cout << "1. Tambah Depan\n";
+                cout << "2. Tambah Belakang\n";
+                cout << "3. Tambah Tengah\n";
                 cout << "4. Keluar\n";
                 loop_choice_data:
                 cout << "Masukan pilihan Anda (1-4): ";
                 cin >> choice_data;
                 if (choice_data == 1) // Pilihan untuk menambah data di depan
                     {
-                        cout << "--Posisi di Depan--\n";
+                        cout << "--Tambah Depan--\n";
                         cout << "Masukkan Nama: ";
                         cin >> name;
                         cout << "Masukkan NIM: ";
@@ -333,7 +333,7 @@
                     }
                 else if (choice_data == 2) // Pilihan untuk menambah data di belakang
                     {
-                        cout << "--Posisi di Belakang--\n";
+                        cout << "--Tambah Belakang--\n";
                         cout << "Masukkan Nama: ";
                         cin >> name;
                         cout << "Masukkan NIM: ";
@@ -342,7 +342,7 @@
                     }
                 else if (choice_data == 3) // Pilihan untuk menambah data di tengah
                     {
-                        cout << "--Posisi di Tengah--\n";
+                        cout << "--Tambah Tengah--\n";
                         cout << "Masukkan Nama: ";
                         cin >> name;
                         cout << "Masukkan NIM: ";
@@ -388,7 +388,7 @@
                         }
                     else if (pilihan == 2) // Untuk mengubah data di tengah
                         {
-                            cout << "Masukab nama yang baru: ";
+                            cout << "Masukan nama yang baru: ";
                             cin >> newName;
                             cout << "Masukan NIM yang baru: ";
                             cin >> newNim;
