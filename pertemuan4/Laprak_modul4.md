@@ -1279,25 +1279,25 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 
 ### 3. Lakukan perintah berikut:
 a) Tambahkan data berikut diantara Farrel dan Denis: Wati 2330004<br/>
-![Unguided_a](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/da3392a7-9847-4daa-a7b5-2ef37d30ea40)
+![Unguided_a](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/da3392a7-9847-4daa-a7b5-2ef37d30ea40)<br/>
 b) Hapus data Denis<br/>
-![Unguided_b](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3ca597ea-2c15-4fa8-bce1-3eaf7b8d885a)
+![Unguided_b](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3ca597ea-2c15-4fa8-bce1-3eaf7b8d885a)<br/>
 c) Tambahkan data berikut di awal:Owi 2330000<br/>
-![Unguided_c](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e37ffbcf-31ae-4248-ae77-404bb1d5755d)
+![Unguided_c](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e37ffbcf-31ae-4248-ae77-404bb1d5755d)<br/>
 d) Tambahkan data berikut di akhir: David 23300100<br/>
-![Unguided_d](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/14a8b8b5-b3ec-4bba-8cbe-0a559ce6a945)
+![Unguided_d](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/14a8b8b5-b3ec-4bba-8cbe-0a559ce6a945)<br/>
 e) Ubah data Udin menjadi data berikut: Idin 23300045<br/>
-![Unguided_e](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/15bdbffa-b143-4a90-a710-a2bd74cf7952)
+![Unguided_e](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/15bdbffa-b143-4a90-a710-a2bd74cf7952)<br/>
 f) Ubah data terakhir menjadi berikut: Lucy 23300101<br/>
-![Unguided_f](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/7a679c6f-e75e-4c34-8df5-159d67c4a734)
+![Unguided_f](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/7a679c6f-e75e-4c34-8df5-159d67c4a734)<br/>
 g) Hapus data awal<br/>
-![Unguided_g](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/ec1240d8-73cc-453a-86bc-3fb7f0e05411)
+![Unguided_g](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/ec1240d8-73cc-453a-86bc-3fb7f0e05411)<br/>
 h) Ubah data awal menjadi berikut: Bagas 2330002<br/>
-![Unguided_h](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/bf24ae19-8a73-461f-9512-8136a26802f2)
+![Unguided_h](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/bf24ae19-8a73-461f-9512-8136a26802f2)<br/>
 i) Hapus data akhir<br/>
-![Unguided_i](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/98b1b98a-aae2-4536-baf8-257e65f7a54c)
+![Unguided_i](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/98b1b98a-aae2-4536-baf8-257e65f7a54c)<br/>
 j) Tampilkan seluruh data<br/>
-![Unguided_j](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/fe704db0-f3a6-48f3-8f3c-635399e2eeb4)
+![Unguided_j](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/fe704db0-f3a6-48f3-8f3c-635399e2eeb4)<br/>
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
