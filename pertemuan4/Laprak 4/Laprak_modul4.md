@@ -536,7 +536,18 @@ int main()
     return   0;
 }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode yang diberikan adalah implementasi dari sebuah single linked list non-circular dalam bahasa pemrograman C++. Dalam single linked list, setiap elemen disebut node dan setiap node memiliki dua bagian, yaitu data dan pointer ke node berikutnya. Kode dimulai dengan mendeklarasikan sebuah struct ```Node``` yang berisi data integer dan pointer ke node selanjutnya. Ada juga deklarasi pointer ```head``` dan ```tail``` yang menunjukkan awal dan akhir dari linked list.<br/>
+Kode memiliki beberapa fungsi dasar, di antaranya:<br/>
+1. ```init()``` untuk menginisialisasi ```head``` dan ```tail```.<br/>
+2. ```isEmpty()``` untuk memeriksa apakah linked list kosong atau tidak.<br/>
+3. ```insertDepan()``` dan ```insertBelakang()``` untuk menambahkan elemen di depan atau belakang linked list.<br/>
+4. ```hitungList()``` untuk menghitung jumlah node dalam linked list.<br/>
+5. ```insertTengah()``` untuk menambahkan elemen di posisi tengah linked list.<br/>
+6. ```hapusDepan()```, ```hapusBelakang()```, dan ```hapusTengah()``` untuk menghapus elemen di depan, belakang, atau posisi tengah linked list.<br/>
+7. ```ubahDepan()```, ```ubahBelakang()```, dan ```ubahTengah()``` untuk mengubah nilai data pada elemen di depan, belakang, atau posisi tengah linked list.<br/>
+8. ```clearList()``` untuk menghapus seluruh isi linked list.<br/>
+9. ```tampil()``` untuk menampilkan isi linked list.<br/>
+Dalam ```main()```, program melakukan serangkaian operasi pada linked list seperti memasukkan, menghapus, mengubah, dan menampilkan elemen. Setelah melakukan operasi-operasi tersebut, program mengembalikan nilai 0 yang menunjukkan bahwa program telah berakhir dengan sukses.
 
 ### 2. Linked List Circular
 
@@ -809,7 +820,17 @@ int main()
     return 0;
 } 
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program yang diberikan adalah implementasi dari sebuah circular linked list dalam bahasa pemrograman C++. Dalam circular linked list, setiap elemen disebut node dan setiap node memiliki dua bagian, yaitu data dan pointer ke node berikutnya. Program dimulai dengan mendeklarasikan sebuah struct `Node` yang berisi data bertipe string dan pointer ke node selanjutnya. Terdapat juga beberapa variabel pointer seperti `head`, `tail`, `baru`, `bantu`, dan `hapus` yang digunakan dalam operasi-operasi pada linked list.
+Fungsi-fungsi dasar yang ada dalam program ini antara lain:
+1. `init()` untuk menginisialisasi `head` dan `tail`.
+2. `isEmpty()` untuk memeriksa apakah linked list kosong atau tidak.
+3. `buatNode()` untuk membuat sebuah node baru dengan data yang diberikan.
+4. `hitungList()` untuk menghitung jumlah node dalam linked list.
+5. `insertDepan()`, `insertBelakang()`, dan `insertTengah()` untuk menambahkan elemen di depan, belakang, atau di posisi tengah linked list.
+6. `hapusDepan()`, `hapusBelakang()`, dan `hapusTengah()` untuk menghapus elemen di depan, belakang, atau di posisi tengah linked list.
+7. `clearList()` untuk menghapus seluruh isi linked list.
+8. `tampil()` untuk menampilkan isi linked list.
+Di dalam `main()`, program melakukan serangkaian operasi pada linked list seperti memasukkan, menghapus, dan menampilkan elemen. Setelah melakukan operasi-operasi tersebut, program mengembalikan nilai 0 yang menunjukkan bahwa program telah berakhir dengan sukses.
 
 ## Unguided 
 
@@ -1299,12 +1320,18 @@ i) Hapus data akhir<br/>
 j) Tampilkan seluruh data<br/>
 ![Unguided_j](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/fe704db0-f3a6-48f3-8f3c-635399e2eeb4)<br/>
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode di atas merupakan kode struktur data Linked list yang merupakan salah satu struktur data yang terdiri dari sejumlah node (simpul) yang saling terhubung melalui pointer. Setiap node terdiri dari data dan pointer yang menunjuk ke node berikutnya. Struktur data ini memungkinkan penggunaannya untuk membangun daftar yang terdiri dari elemen-elemen yang bisa diubah-ubah ukurannya. Program tersebut terdiri dari beberapa fungsi, yaitu:<br/>
+a. ```init()```: Fungsi ini digunakan untuk menginisialisasi nilai dari pointer head dan tail menjadi NULL, sehingga awalnya linked list kosong.<br/>
+b. ```isEmpty()```: Fungsi ini digunakan untuk memeriksa apakah linked list kosong atau tidak. Jika kosong, maka fungsi akan mengembalikan nilai true, sedangkan jika tidak kosong, maka akan mengembalikan nilai false.<br/>
+c. ```insertDepan(string name, string nim)```: Fungsi ini digunakan untuk menambahkan data ke dalam linked list di posisi paling depan. Fungsi ini menerima dua parameter yaitu nama dan nim. Data tersebut kemudian disimpan pada sebuah node baru, lalu node tersebut disambungkan ke linked list. Jika linked list masih kosong, maka pointer head dan tail akan menunjuk ke node baru tersebut. Fungsi ini juga akan menampilkan pesan yang memberitahukan bahwa data berhasil ditambahkan.<br/>
+d. ```insertBelakang(string name, string nim)```: Fungsi ini digunakan untuk menambahkan data ke dalam linked list di posisi paling belakang. Cara kerja fungsi ini hampir sama dengan fungsi ```insertDepan()```, namun kali ini node baru disambungkan ke node terakhir pada linked list. Fungsi ini juga akan menampilkan pesan yang memberitahukan bahwa data berhasil ditambahkan.<br/>
+e. ```hitungList()```: Fungsi ini digunakan untuk menghitung jumlah node pada linked list. Fungsi ini akan mengembalikan nilai integer yang menunjukkan jumlah node pada linked list.<br/>
+f. ```insertTengah(string name, string nim, int posisi)```: Fungsi ini digunakan untuk menambahkan data ke dalam linked list di posisi tertentu (bukan di posisi paling depan atau paling belakang). Fungsi ini menerima tiga parameter yaitu nama, nim, dan posisi. Data tersebut kemudian disimpan pada sebuah node baru, lalu node tersebut disambungkan ke linked list pada posisi yang ditentukan. Fungsi ini juga akan menampilkan pesan yang memberitahukan bahwa data berhasil ditambahkan pada posisi tertentu.<br/>
+g. ```remove()```: Fungsi ini digunakan untuk menghapus data pada linked list. Fungsi ini terdiri dari tiga pilihan yaitu hapus pada posisi depan, hapus pada posisi tengah, dan hapus pada posisi belakang. Setiap pilihan akan meminta input dari pengguna untuk menentukan posisi mana yang ingin dihapus, kemudian fungsi akan menghapus data pada posisi tersebut dan menampilkan pesan yang memberitahukan bahwa data berhasil dihapus. Jika posisi yang dimasukkan tidak valid, maka akan ditampilkan pesan kesalahan.<br/>
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Dalam praktikum circular linked list dan non-circular linked list, kita mempelajari dua jenis struktur data yang berbeda dalam pemrograman. Circular linked list adalah struktur data di mana setiap node memiliki pointer yang menunjuk pada node berikutnya dan node terakhir menunjuk kembali ke node pertama, sehingga membentuk lingkaran. Sedangkan non-circular linked list adalah struktur data di mana node terakhir menunjuk pada NULL, sehingga tidak membentuk lingkaran. Kedua jenis linked list ini memiliki kelebihan dan kekurangan masing-masing. Keuntungan dari circular linked list adalah mudah untuk melakukan operasi yang melibatkan pengulangan atau penelusuran dari awal ke akhir daftar, karena tidak perlu memeriksa apakah node terakhir menunjuk pada NULL atau tidak. Sedangkan keuntungan dari non-circular linked list adalah mudah untuk menghapus elemen di akhir daftar, karena hanya perlu menetapkan pointer node sebelumnya ke NULL. Kesimpulannya, pilihan antara circular linked list atau non circular linked list tergantung pada kebutuhan aplikasi dan operasi yang akan dilakukan pada struktur data tersebut. Keduanya adalah alat yang berguna dalam pemrograman dan dapat digunakan untuk memecahkan masalah dalam berbagai aplikasi.
 
 ## Referensi
 [1] Kurniman Putra, A. (2019). List linier (linked list) dan variasinya. Dalam Struktur Data (hal. 19). Fakultas Komputer. UMitra.<br/>
 [2] Aksu, M., & Karci, A. (2019). Skip Ring/Circular Skip List: Circular Linked List Based New Data Structure. Computer Engineering and Intelligent Systems, 6(5), 35.<br/>
-
