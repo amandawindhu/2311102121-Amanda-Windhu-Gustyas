@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul Hash Table</h1>
+ # <h1 align="center">Laporan Praktikum Modul Hash Table</h1>
 <p align="center">Amanda Windhu Gustyas - 2311102121</p>
 
 ## Dasar Teori
@@ -43,6 +43,14 @@
     - Ketika terjadi terlalu banyak collisions, waktu pencarian rata-rata bisa melambat.<br/>
     -Rehashing mengalokasikan tabel yang lebih besar dan mendistribusikan ulang semua data (key-value pair) ke dalam tabel baru dengan fungsi hash yang sama atau
     berbeda. ideally, rehashing bertujuan untuk mengurangi jumlah collisions dan mengembalikan waktu pencarian ke performa optimal.<br/>
+-> Solusi alternatif untuk menyelesaikan tabrakan yang berkualifikasi menginduksi klasifikasi struktur data hash table. Sebagian besar implementasi mengikuti         salah satu dari dua strategi alternatif ini:<br/>
+    1.Penyisipan Terbuka (Open Addressing): Ketika terjadi tabrakan yang berkualifikasi, tempat lain dicari mengikuti strategi penyelusuran, misalnya:
+    penyelusuran linear, hashing ganda, dll. Fitur pentingnya adalah bahwa paling banyak satu pasangan  disimpan dalam larik (di dalam bucket).<br/>
+    2.Chaining: Ketika terjadi tabrakan yang berkualifikasi, pasangan tersebut tetap disimpan di slot larik tersebut. Artinya, bucket tidak menyimpan pasangan
+    secara  langsung, tetapi menggunakan struktur data lain yang mampu menyimpan beberapa pasangan, biasanya daftar berantai, tetapi juga struktur data lain
+    seperti pohon biner.<br/>
+    Dalam kedua kasus tersebut, tujuannya adalah untuk menangani tabrakan yang mungkin terjadi saat menggunakan fungsi hash untuk memetakan kunci ke indeks dalam
+    hash table. Dengan demikian, baik penyisipan terbuka maupun chaining adalah strategi untuk mengatasi tabrakan, tetapi dengan pendekatan yang berbeda.<br/>
 
 ## Guided 
 
@@ -157,7 +165,7 @@ using namespace std;
         return 0;
         }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program di atas memanfaatkan array dinamis "table" untuk menyimpan bucket dalam hash table. Setiap bucket direpresentasikan sebagai sebuah linked list, di mana setiap node mewakili satu item data. Fungsi hash sederhana digunakan untuk memetakan setiap kunci input ke nilai indeks array menggunakan operasi modulus.<br/>
 
 ### Guided 2
 ``` C++
@@ -247,6 +255,10 @@ using namespace std;
     return 0;
     }
 ```
+Pada program di atas, HashNode adalah kelas yang digunakan untuk mewakili setiap simpul (node) dalam tabel hash. Setiap simpul memiliki atribut nama 
+dan nomor telepon karyawan. HashMap adalah kelas yang digunakan untuk mengimplementasikan struktur tabel hash dengan menggunakan vektor yang 
+menyimpan pointer ke HashNode. Fungsi hashFunc digunakan untuk menghitung nilai hash dari nama karyawan yang diberikan. Fungsi insert digunakan untuk menambahkan data baru ke dalam tabel hash. Jika nama karyawan sudah ada dalam tabel, nomor telepon akan diperbarui. Fungsi remove digunakan untuk menghapus data dari tabel 
+hash berdasarkan nama karyawan. Fungsi searchByName digunakan untuk mencari nomor telepon karyawan berdasarkan nama yang diberikan Dalam program ini, pengguna dapat menyisipkan data karyawan, mencari nomor telepon karyawan berdasarkan nama, dan menghapus data karyawan. Seluruh tabel hash kemudian dicetak untuk menampilkan data yang tersimpan.<br/>
 
 ## Unguided 
 
