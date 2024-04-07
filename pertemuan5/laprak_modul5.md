@@ -513,7 +513,7 @@ Keuntungan menggunakan hash table:<br/>
 - Penyimpanan data yang efisien<br/>
 - Mendukung operasi insert, delete, dan search dengan waktu konstan<br/>
 Kekurangan menggunakan hash table:<br/>
--Kinerja dapat menurun saat terjadi banyak tabrakan<br/>
+- Kinerja dapat menurun saat terjadi banyak tabrakan<br/>
 - Membutuhkan fungsi hash yang baik<br/>
 
 ## Referensi
