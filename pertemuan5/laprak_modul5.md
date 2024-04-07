@@ -483,7 +483,23 @@ int main() {
 
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+1. Tampilan Menu<br/>
+![Tampilan menu](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/63ed56a7-6ab2-4155-b7ea-adb89a2872d4)<br/>
+2. Tambah Data<br/>
+![Tambah Data](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/c431b5de-8bc5-4699-adc0-fd8bca3aeded)<br/>
+![Tambah Data_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/157e760d-25ec-403d-a418-a206bc7c8337)<br/>
+![Tambah Data_2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/f17efad2-5a88-44e3-b4ae-08a75539caf8)<br/>
+![Tambah Data_3](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/5df454a5-549c-443a-bc06-4f290e9939e9)<br/>
+![Tambah Data_4](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/331ccba3-c87f-40dd-9813-3a7955cb3009)<br/>
+![Tambah Data_5](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/9130ff58-52a5-4d68-8713-93e563fb1fa1)<br/>
+3. Hapus Data<br/>
+![Hapus Data](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8a804957-89c6-434b-adaa-1f3234b759ad)<br/>
+4. Cari Data berdasarkan NIM<br/>
+![Cari Data NIM](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/78b4f62e-968e-439c-8496-4163766c91f6)<br/>
+5. Cari Data berdasarkan Rentang Nilai<br/>
+![Cari Data Rentang Nilai](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/98dd8e8e-b5c0-4c92-9b58-38867cbf1801)<br/>
+6. Tampilkan Data<br/>
+![Tampilkan Data](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/d3e7b23b-65ca-4c58-8c9d-ed05581e27b1)<br/>
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
