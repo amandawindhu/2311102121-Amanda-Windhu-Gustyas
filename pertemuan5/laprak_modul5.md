@@ -501,10 +501,20 @@ int main() {
 6. Tampilkan Data<br/>
 ![Tampilkan Data](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/d3e7b23b-65ca-4c58-8c9d-ed05581e27b1)<br/>
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program di atas adalah implementasi sederhana dari struktur data tabel hash dalam bahasa C++. Program ini memungkinkan pengguna untuk menambahkan data mahasiswa (NIM dan nilai), menghapus data mahasiswa berdasarkan NIM, mencari data mahasiswa berdasarkan NIM, mencari data mahasiswa berdasarkan rentang nilai, dan menampilkan seluruh data mahasiswa yang disimpan dalam tabel hash.<br/>
+Struktur Data Mahasiswa ```Mahasiswa``` merupakan struktur data yang berisi dua anggota: NIM dan nilai. Fungsi Hash ```hash_func``` merupakan fungsi hash sederhana yang menggunakan metode modulus untuk memetakan NIM ke indeks dalam tabel hash. Struktur Data Node ```Node``` merupakan struktur data untuk node dalam tabel hash yang menyimpan data mahasiswa dan pointer ke node berikutnya (untuk menangani tabrakan menggunakan chaining). Kelas Tabel Hash ```HashTable``` merupakan kelas yang mewakili tabel hash, menyediakan metode untuk menambahkan, mencari, menghapus, dan menampilkan data mahasiswa dan menggunakan penyisipan chaining untuk menangani tabrakan.<br/>
+Fungsi ```main``` untuk menampilkan menu kepada pengguna dan memungkinkan pengguna untuk memilih operasi yang ingin dilakukan pada tabel hash, menggunakan switch statement untuk menangani pilihan pengguna dan memanggil metode yang sesuai pada kelas HashTable.<br/>
+Program ini memberikan pengguna kemampuan untuk mengelola data mahasiswa secara efisien menggunakan struktur data tabel hash.<br/>
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Hash table adalah struktur data yang digunakan untuk menyimpan data dan mempermudah proses pencarian. Hash table terdiri dari dua komponen: key dan value. Key digunakan untuk mengakses data yang disimpan dan bersifat unik. Hash table biasanya direpresentasikan sebagai associative array. Tujuan hash table adalah untuk mempercepat pencarian kembali dari banyak data yang disimpan. Hash table menyediakan beberapa operasi dasar untuk memanipulasi data, seperti: Insert, search, delete, dan rehashing. Solusi untuk menangani tabrakan hash table yaitu open addresing dan chaining.<br/>
+Keuntungan menggunakan hash table:<br/>
+- Pencarian data yang cepat<br/>
+- Penyimpanan data yang efisien<br/>
+- Mendukung operasi insert, delete, dan search dengan waktu konstan<br/>
+Kekurangan menggunakan hash table:<br/>
+-Kinerja dapat menurun saat terjadi banyak tabrakan<br/>
+- Membutuhkan fungsi hash yang baik<br/>
 
 ## Referensi
 [1] Kautsar, I., Saleh, K. R. W., & Wulandari, G. S. (2019). Analisis Performansi Metode Graph Decomposition. e-Proceeding of Engineering, 2(1), 1730.<br/>
