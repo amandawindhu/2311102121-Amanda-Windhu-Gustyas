@@ -188,7 +188,10 @@ int main() {
     return 0;
 }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program di atas adalah implementasi dari C++ struktur data stack menggunakan array untuk menyimpan data buku. Stack adalah struktur data yang memungkinkan penambahan dan penghapusan elemen dari atas ke bawah. Program ini menawarkan fungsi untuk memeriksa apakah stack penuh atau kosong, menambahkan data baru, menghapus data teratas, melihat data pada posisi tertentu, menghitung jumlah data, mengubah data pada posisi tertentu, dan menghapus semua data dalam stack.<br/>
+Program ini dimulai dengan menambahkan beberapa judul buku ke dalam stack menggunakan fungsi `pushArrayBuku`. Kemudian, program menampilkan isi stack buku menggunakan fungsi `cetakArrayBuku`. Selanjutnya, program melakukan pengecekan apakah stack penuh atau kosong menggunakan fungsi `isFull` dan `isEmpty`.
+Program juga menampilkan data pada posisi tertentu dalam stack menggunakan fungsi `peekArrayBuku`, menghapus data teratas dari stack menggunakan fungsi `popArrayBuku`, menghitung jumlah data dalam stack menggunakan fungsi `countStack`, mengubah data pada posisi tertentu dalam stack menggunakan fungsi `chargeArrayBuku`, dan menghapus semua data dalam stack menggunakan fungsi `destroyArrayBuku`.<br/>
+Dalam akhir program, isi stack buku dihapus dan jumlah data setelah dihapus ditampilkan. Program ini memberikan contoh bagaimana struktur data stack dapat digunakan dalam aplikasi yang memerlukan pengelolaan data secara terstruktur.<br/>
 
 ## Unguided 
 
@@ -249,7 +252,9 @@ int main() {
 ![SS_UNGUIDED_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e4683150-f321-45be-8fd8-f36fe9460490)<br/>
 ![SS_UNGUIDED_2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/5601c700-863c-4063-b82c-0c096f204bde)<br/>
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program di atas adalah implementasi dari C++ struktur data stack yang memeriksa apakah sebuah kalimat adalah palindrom atau tidak. Palindrom adalah sebuah kalimat yang memiliki sifat bahwa jika dibalik, maka hasilnya tetap sama dengan kalimat asli. Program ini meminta pengguna untuk memasukkan sebuah kalimat melalui input, lalu memanggil fungsi `isPalindrome` dengan kalimat yang diberikan sebagai parameter.<br/>
+Fungsi `isPalindrome` menghapus spasi dan tanda baca dari kalimat, serta mengonversi huruf menjadi lowercase untuk memudahkan pengecekan. Kemudian, fungsi `isPalindrome` membalikkan kalimat yang telah disiapkan dan membandingkan dengan kalimat asli. Jika kalimat asli sama dengan kalimat yang dibalik, maka fungsi `isPalindrome` mengembalikan nilai `true`, yang menandakan bahwa kalimat adalah palindrom. Jika tidak, maka nilai `false` dikembalikan.<br/>
+Program ini kemudian menampilkan hasil pengecekan dengan menampilkan kalimat yang diberikan dan apakah kalimat tersebut adalah palindrom atau tidak. Dengan demikian, program ini dapat membantu dalam memeriksa apakah sebuah kalimat adalah palindrom atau tidak.<br/>
 
 ### 2. [Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata. Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat?]
 ### Contoh
@@ -307,7 +312,12 @@ int main() {
 ### Output:
 ![SS_UNGUIDED2_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/a85cbb03-a897-44f4-a01a-644f1df533b4)<br/>
 ![SS_UNGUIDED2_2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/41f0db6b-1798-4417-8399-10d0f8c56f0c)<br/>
+![SS_UNGUIDED2_3](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8164ebbd-3622-4f43-afb2-c3b50f001865)<br/>
 
+Program di atas adalah implementasi dari C++ struktur data stack yang membalikkan urutan kata dalam sebuah kalimat. Program ini meminta pengguna untuk memasukkan sebuah kalimat melalui input, lalu memanggil fungsi `reverseSentence` dengan kalimat yang diberikan sebagai parameter.<br/>
+Fungsi `reverseSentence` menggunakan stack untuk menyimpan kata-kata yang sudah dibalik. Program ini memproses input kalimat dengan menggunakan stringstream untuk memisahkan kata-kata dan mengonversi huruf menjadi lowercase. Kemudian, program ini membalikkan urutan karakter dalam setiap kata dan memasukkan kata-kata yang sudah dibalik ke dalam stack.<br/>
+Setelah semua kata dibalik, program ini mengambil kata-kata dari stack dan menyusunnya kembali menjadi kalimat yang sudah dibalik urutannya. Program ini menambahkan spasi antara kata-kata untuk mempertahankan struktur asli kalimat. Akhirnya, program ini mengembalikan kalimat yang sudah dibalik urutannya.
+Dalam program utama, hasil dari fungsi `reverseSentence` ditampilkan kepada pengguna bersama dengan kalimat asli. Dengan demikian, program ini dapat membantu dalam membalikkan urutan kata dalam sebuah kalimat.<br/>
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
