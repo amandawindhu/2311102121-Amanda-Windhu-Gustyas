@@ -171,17 +171,58 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 
 ## Unguided 
 
-### 1. [Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah palindrom/tidak. Palindrom kalimat yang dibaca dari
-### depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
+### 1. [Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah palindrom/tidak. Palindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
 ### Contoh:
 ### Kalimat : ini
 ### Kalimat tersebut adalah polindrom
 
 ### Kalimat : telkom
 ### Kalimat tersebut adalah bukan polindrom]
+![Soal_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3cbbffe1-0b14-400a-80cd-4b946b79399b)<br/>
 
 ```C++
+// Oleh Amanda Windhu Gustyas - 2311102121
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
 
+// Fungsi untuk memeriksa apakah sebuah kalimat adalah palindrom
+bool isPalindrome(const string& kal) {
+    string strippedSentence;
+
+    // Menghapus spasi dan tanda baca dari kalimat, dan mengonversi huruf menjadi lowercase
+    for (char r047 : kal) {
+        if (isalpha(r047)) {
+            strippedSentence += tolower(r047); // Menambahkan karakter yang valid ke dalam kalimat tanpa tanda baca dan spasi
+        }
+    }
+
+    string reversedSentence = strippedSentence;
+    reverse(reversedSentence.begin(), reversedSentence.end()); 
+    // Membalikkan kalimat untuk memeriksa apakah sama dengan kalimat asli
+    
+    return strippedSentence == reversedSentence; // Mengembalikan nilai true jika kalimat adalah palindrom, dan false jika tidak
+}
+
+int main() {
+    string kal;
+    cout << "Masukkan kalimat: ";
+    getline(cin, kal);
+
+    bool isPalindrom = isPalindrome(kal); // Memanggil fungsi isPalindrome untuk memeriksa apakah kalimat adalah palindrom atau tidak
+
+    cout << "Kalimat: " << kal << endl;
+
+    // Menampilkan hasil apakah kalimat adalah palindrom atau tidak
+    if (isPalindrom) {
+        cout << "Kalimat tersebut adalah palindrom." << endl;
+    } else {
+        cout << "Kalimat tersebut bukan palindrom." << endl;
+    }
+
+    return 0; // Mengembalikan nilai 0, menandakan bahwa program berjalan dengan sukses
+}
 ```
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
