@@ -225,7 +225,8 @@ int main() {
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![SS_UNGUIDED_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e4683150-f321-45be-8fd8-f36fe9460490)<br/>
+![SS_UNGUIDED_2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/5601c700-863c-4063-b82c-0c096f204bde)<br/>
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
@@ -282,6 +283,10 @@ int main() {
     return 0; // Mengembalikan nilai 0, menandakan bahwa program berjalan dengan sukses
 }
 ```
+### Output:
+![SS_UNGUIDED2_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/a85cbb03-a897-44f4-a01a-644f1df533b4)<br/>
+![SS_UNGUIDED2_2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/41f0db6b-1798-4417-8399-10d0f8c56f0c)<br/>
+
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
