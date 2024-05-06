@@ -171,13 +171,13 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 
 ## Unguided 
 
-### 1. [Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah palindrom/tidak. Palindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.
+### 1. [Buatlah program untuk menentukan apakah kalimat tersebut yang diinputkan dalam program stack adalah palindrom/tidak. Palindrom kalimat yang dibaca dari depan dan belakang sama. Jelaskan bagaimana cara kerja programnya.]
 ### Contoh:
 ### Kalimat : ini
 ### Kalimat tersebut adalah polindrom
 
 ### Kalimat : telkom
-### Kalimat tersebut adalah bukan polindrom]
+### Kalimat tersebut adalah bukan polindrom
 ![Soal_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3cbbffe1-0b14-400a-80cd-4b946b79399b)<br/>
 
 ```C++
