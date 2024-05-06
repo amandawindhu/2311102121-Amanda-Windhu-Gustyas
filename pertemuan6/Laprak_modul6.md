@@ -29,6 +29,27 @@ struct stack {
     char items[maxsize];// Array
 };
 ```
+- Beberapa fungsi penting dari struktur data stack:<br/>
+1. Manajemen Memori: Stack digunakan untuk menyimpan alamat memori dari suatu fungsi saat program dijalankan, membantu dalam alokasi dan dealokasi memori dengan efisien.<br/>
+2. Pengecekan Tata Bahasa: Stack digunakan untuk menyimpan konteks dari suatu ekspresi matematika atau kondisi logika, memastikan urutan operasi dan sintaksis yang benar.<br/>
+3. Algoritma Backtracking: Stack digunakan untuk menyimpan state dari suatu proses yang dapat dikembalikan ke state sebelumnya jika proses tersebut gagal, memungkinkan eksplorasi ulang dari pilihan sebelumnya.<br/>
+4. Algoritma Pengurutan: Stack digunakan dalam beberapa algoritma pengurutan seperti quicksort dan mergesort, membantu dalam penyimpanan sementara data dan pengaturan urutan.<br/>
+5. Pemecahan Masalah Rekursif: Stack digunakan dalam pemecahan masalah rekursif karena setiap panggilan rekursif akan ditambahkan ke stack dan setiap pengembalian dari rekursif akan dihapus dari stack, memastikan tidak terjadi kelebihan memori.<br/>
+6. Evaluasi Ekspresi: Stack digunakan dalam evaluasi ekspresi aritmatika dan logika, membantu dalam pemrosesan operasi dan operand.<br/>
+- Beberapa kelebihan dari stack:<br/>
+1. Efisiensi Waktu: Operasi seperti push, pop, dan peek memerlukan waktu yang konstan, yaitu O(1), sehingga memungkinkan untuk eksekusi cepat.<br/>
+2. Penanganan Data Sementara: Stack dapat digunakan untuk menyimpan data sementara selama proses eksekusi, seperti dalam manajemen memori, pengecekan tata bahasa, dan algoritma backtracking.<br/>
+3. Implementasi yang Mudah: Stack dapat diimplementasikan dengan menggunakan berbagai struktur data dasar seperti array, linked list, dan pointer, sehingga mudah diintegrasikan dalam berbagai aplikasi.<br/>
+4. Penyimpanan Data yang Aman: Stack dapat digunakan untuk menyimpan data sensitif dengan menerapkan teknik keamanan seperti enkripsi, sehingga menjaga keamanan informasi.<br/>
+5. Penanganan Masalah Rekursif: Stack dapat digunakan efektif dalam penyelesaian masalah rekursif karena kemampuannya dalam menyimpan dan menghapus panggilan rekursif secara berurutan.<br/>
+6. Kapasitas Terbatas: Stack memiliki kapasitas terbatas yang telah ditentukan sebelumnya, sehingga mencegah kemungkinan terjadinya overflow dan memberikan kepastian terhadap penggunaan memori.<br/>
+- Beberapa kekurangan dari stack:<br/>
+1. Kapasitas Terbatas: Stack memiliki kapasitas yang telah ditentukan sebelumnya dan tidak dapat menambah elemen jika sudah penuh, sehingga dapat menyebabkan overflow jika tidak dikelola dengan baik.<br/>
+2. Akses Terbatas: Hanya elemen yang berada di atas elemen teratas yang dapat diakses. Elemen yang berada di bawah elemen teratas tidak dapat diakses tanpa menghapus elemen di atasnya, membatasi fleksibilitas dalam akses data.<br/>
+3. Akses Data yang Lambat: Jika ingin mengakses data yang berada di bawah elemen teratas, harus menghapus semua elemen di atasnya terlebih dahulu, menyebabkan keterlambatan dalam akses data.
+4. Kekurangan dalam Penyimpanan Data: Stack hanya cocok untuk menyimpan data sementara dan tidak dapat digunakan untuk menyimpan data permanen, mengakibatkan keterbatasan dalam penggunaan.<br/>
+5. Overflow dan Underflow: Stack dapat mengalami overflow jika terus menerus menambah elemen tanpa cukup kapasitas, dan mengalami underflow jika terus menerus menghapus elemen tanpa tersisa, mengurangi kehandalan struktur data.<br/>
+6. Keterbatasan dalam Pencarian Data: Stack tidak dapat digunakan untuk mencari elemen tertentu, karena hanya elemen teratas yang dapat diakses, membatasi kemampuan pencarian data.<br/>
 
 ### 1. [Guided]
 
