@@ -320,7 +320,8 @@ Setelah semua kata dibalik, program ini mengambil kata-kata dari stack dan menyu
 Dalam program utama, hasil dari fungsi `reverseSentence` ditampilkan kepada pengguna bersama dengan kalimat asli. Dengan demikian, program ini dapat membantu dalam membalikkan urutan kata dalam sebuah kalimat.<br/>
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Stack atau tumpukan adalah struktur data yang penting dalam pemrograman dengan metode pemrosesan yang bersifat LIFO (Last In First Out), di mana objek/benda yang terakhir masuk ke dalam stack akan menjadi benda pertama yang dikeluarkan dari stack. Dengan model demikian, maka hanya bagian paling atas saja dari stack (TOP) yang bisa diakses. Salah satu kelebihan stack adalah bahwa struktur data tersebut dapat diimplementasikan baik pada array maupun pada linked list.<br/>
+Beberapa fungsi penting dari struktur data stack meliputi manajemen memori, pengecekan tata bahasa, algoritma backtracking, algoritma pengurutan, pemecahan masalah rekursif, evaluasi ekspresi, dan lain-lain. Kelebihan stack meliputi efisiensi waktu, penanganan data sementara, implementasi yang mudah, penyimpanan data yang aman, penanganan masalah rekursif, dan kapasitas terbatas. Namun, stack juga memiliki beberapa kekurangan, seperti kapasitas terbatas, akses terbatas, akses data yang lambat, kekurangan dalam penyimpanan data, overflow dan underflow, dan keterbatasan dalam pencarian data.<br/>
 
 ## Referensi
 [1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
