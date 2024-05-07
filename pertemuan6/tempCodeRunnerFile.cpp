@@ -4,7 +4,6 @@
 #include <sstream>
 #include <algorithm>
 using namespace std;
-
 // Fungsi untuk membalik urutan kata dalam sebuah kalimat
 string reverseSentence(const string& kal) {
     stack<string> stack; // Membuat stack untuk menyimpan kata-kata yang sudah dibalik
