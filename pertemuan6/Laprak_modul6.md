@@ -204,6 +204,15 @@ Dalam akhir program, isi stack buku dihapus dan jumlah data setelah dihapus dita
 ### Kalimat tersebut adalah bukan polindrom
 ![Soal_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3cbbffe1-0b14-400a-80cd-4b946b79399b)<br/>
 
+Algoritma:<br/>
+1. Mulai<br/>
+2. Masukkan kata yang ingin diperiksa<br/>
+3. Hitung jumlah huruf dalam kata<br/>
+4. Masukkan setiap huruf ke dalam stack (push)<br/>
+5. Bandingkan huruf pertama dalam stack dengan huruf terakhir<br/>
+6. Perbandingan dilakukan berulang sebanyak jumlah huruf<br/>
+7. Jika setiap huruf yang dibandingkan sama, kata tersebut adalah polindrom<br/>
+8. Selesai
 ```C++
 // Oleh Amanda Windhu Gustyas - 2311102121
 #include <iostream>
@@ -324,4 +333,6 @@ Stack atau tumpukan adalah struktur data yang penting dalam pemrograman dengan m
 Beberapa fungsi penting dari struktur data stack meliputi manajemen memori, pengecekan tata bahasa, algoritma backtracking, algoritma pengurutan, pemecahan masalah rekursif, evaluasi ekspresi, dan lain-lain. Kelebihan stack meliputi efisiensi waktu, penanganan data sementara, implementasi yang mudah, penyimpanan data yang aman, penanganan masalah rekursif, dan kapasitas terbatas. Namun, stack juga memiliki beberapa kekurangan, seperti kapasitas terbatas, akses terbatas, akses data yang lambat, kekurangan dalam penyimpanan data, overflow dan underflow, dan keterbatasan dalam pencarian data.<br/>
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Sihombing, Johnson. (2020). Penerapan Stack dan Queue pada Array dan Linked List. Program Studi Manajemen Informatika, Politeknik Piksi Ganesha. Bandung.<br/>
+[2] Selamet, Rachmat. (2019). Implementasi Struktur Data List, Queue, dan Stack. Media Informatika, Volume 15, Nomor 3.<br/>
+[3] Aliyanto, Arif. (2019). Sistem Pembelajaran Algoritma Stack dan Queue dengan Pendekatan Problem Based Learning untuk Mendukung Pembelajaran Struktur Data.<br/>
