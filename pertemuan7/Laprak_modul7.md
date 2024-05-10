@@ -198,6 +198,7 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 
 ### 2. [ Dari nomor 1 buatlah konsep antri dengan atribut Nama mahasiswa dan NIM Mahasiswa]
 ``` C++
+// Oleh Amanda Windhu Gustyas_2311102121
 #include <iostream>
 using namespace std;
 
