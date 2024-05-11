@@ -93,10 +93,10 @@ cout << "Jumlah antrian = " << countQueue() << endl;
 return 0;
 }
 ```
-Kode C++ di atas mengimplementasikan struktur data antrian sederhana, di mana elemen ditambahkan dan dihapus dengan cara first-in-first-out (FIFO). Program ini menggunakan array string untuk menyimpan elemen dalam antrian, dengan kapasitas maksimum lima elemen yang ditentukan oleh konstanta . Program ini mencakup fungsi untuk memeriksa apakah antrian penuh atau kosong, menambahkan elemen ke akhir antrian, menghapus elemen dari depan antrian, menghitung jumlah elemen dalam antrian, membersihkan antrian, dan menampilkan elemen dalam antrian. `maksimalQueue``enqueueAntrian``dequeueAntrian``count Queue``clearQueue``viewQueue`<br/>
-Program dimulai dengan menginisialisasi antrian dengan dua elemen, "Andi" dan "Maya", menggunakan fungsi tersebut. Fungsi tersebut kemudian dipanggil untuk menampilkan status antrian saat ini, menunjukkan dua elemen yang ditambahkan. Fungsi tersebut digunakan untuk menghitung jumlah elemen dalam antrian yang saat ini berjumlah dua. `enqueueAntrian``viewQueue``count Queue`<br/>
-Selanjutnya fungsi tersebut dipanggil untuk menghapus elemen depan dari antrian, yaitu "Andi". Fungsi ini dipanggil lagi untuk menampilkan status antrian yang diperbarui, hanya menampilkan satu elemen, "Maya". Fungsi tersebut digunakan kembali untuk menghitung jumlah elemen dalam antrian, yang sekarang menjadi satu. `dequeueAntrian``viewQueue``count Queue`<br/>
-Terakhir, fungsi dipanggil untuk menghapus semua elemen dari antrian, dan fungsi dipanggil sekali lagi untuk menampilkan antrian kosong. Fungsi tersebut digunakan kembali untuk mengonfirmasi bahwa antrian kini kosong. `clearQueue``viewQueue``countQueue`<br/>
+Kode C++ di atas mengimplementasikan struktur data antrian sederhana, di mana elemen ditambahkan dan dihapus dengan cara first-in-first-out (FIFO). Program ini menggunakan array string untuk menyimpan elemen dalam antrian, dengan kapasitas maksimum lima elemen yang ditentukan oleh konstanta . Program ini mencakup fungsi untuk memeriksa apakah antrian penuh atau kosong, menambahkan elemen ke akhir antrian, menghapus elemen dari depan antrian, menghitung jumlah elemen dalam antrian, membersihkan antrian, dan menampilkan elemen dalam antrian. `maksimalQueue` `enqueueAntrian` `dequeueAntrian` `count Queue` `clearQueue` `viewQueue`<br/>
+Program dimulai dengan menginisialisasi antrian dengan dua elemen, "Andi" dan "Maya", menggunakan fungsi tersebut. Fungsi tersebut kemudian dipanggil untuk menampilkan status antrian saat ini, menunjukkan dua elemen yang ditambahkan. Fungsi tersebut digunakan untuk menghitung jumlah elemen dalam antrian yang saat ini berjumlah dua. `enqueueAntrian` `viewQueue` `count Queue`<br/>
+Selanjutnya fungsi tersebut dipanggil untuk menghapus elemen depan dari antrian, yaitu "Andi". Fungsi ini dipanggil lagi untuk menampilkan status antrian yang diperbarui, hanya menampilkan satu elemen, "Maya". Fungsi tersebut digunakan kembali untuk menghitung jumlah elemen dalam antrian, yang sekarang menjadi satu. `dequeueAntrian` `viewQueue` `count Queue`<br/>
+Terakhir, fungsi dipanggil untuk menghapus semua elemen dari antrian, dan fungsi dipanggil sekali lagi untuk menampilkan antrian kosong. Fungsi tersebut digunakan kembali untuk mengonfirmasi bahwa antrian kini kosong. `clearQueue` `viewQueue` `countQueue`<br/>
 
 ## Unguided 
 
@@ -236,7 +236,7 @@ Program dimulai dengan mendefinisikan sebuah struct untuk setiap elemen dalam li
 Kelas Queue menyertakan beberapa metode publik untuk mengelola antrian. Metode isEmpty memeriksa apakah antrian kosong dengan memeriksa apakah penunjuk depan bernilai nol. Metode enqueue menambahkan elemen baru ke akhir antrian dengan membuat node baru dengan data yang diberikan dan memperbarui penunjuk belakang agar menunjuk ke node baru. Metode dequeue menghapus elemen dari depan antrian dengan memperbarui penunjuk depan agar menunjuk ke node berikutnya dan menghapus node yang dihapus. Metode count mengembalikan jumlah elemen dalam antrian dengan mengembalikan variabel ukuran. Metode clear menghapus semua elemen dari antrian dengan memanggil dequeue berulang kali hingga antrian kosong. Metode view menampilkan elemen-elemen dalam antrian dengan melintasi linked list dari node depan ke node belakang.<br/>
 Dalam fungsi main, objek Antrian baru dibuat dan beberapa operasi dilakukan. Program menambahkan dua elemen ke antrian menggunakan enqueue, menampilkan antrian menggunakan view, mencetak jumlah elemen dalam antrian menggunakan count, menghapus satu elemen dari antrian menggunakan dequeue, menampilkan kembali antrian, mencetak jumlah elemen dalam antrian, hapus antrian menggunakan clear, dan menampilkan antrian sekali lagi.<br/>
 
-### 2. [ Dari nomor 1 buatlah konsep antri dengan atribut Nama mahasiswa dan NIM Mahasiswa]
+### 2. [Dari nomor 1 buatlah konsep antri dengan atribut Nama mahasiswa dan NIM Mahasiswa]
 
 ``` C++
 // Oleh Amanda Windhu Gustyas_2311102121
@@ -372,8 +372,7 @@ int main() {
 #### Output:
 ![SS_Unguided2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/dc63945b-d1e4-4a8c-bb13-980a034a583c)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
-
+Program di atas merupakan implementasi sederhana dari struktur data antrian di C++. Hal ini memungkinkan pengguna untuk menambahkan siswa ke akhir antrian, menghapus siswa dari depan antrian, dan menampilkan antrian saat ini. Antrian diwakili oleh linked list dimana setiap node berisi nama dan NIM siswa. Program ini mencakup metode untuk memeriksa apakah antrian kosong, menambah siswa, mengeluarkan siswa, menghitung jumlah siswa, mengosongkan antrian, dan menampilkan antrian. Ini menunjukkan operasi dasar pada antrian, seperti menambah dan menghapus elemen, dan menampilkan keadaan antrian saat ini.<br/>
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
