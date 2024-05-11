@@ -3,7 +3,48 @@
 
 ## Dasar Teori
 
-Berikan penjelasan teori terkait materi modul ini dengan bahasa anda sendiri serta susunan yang terstruktur per topiknya.
+- Queue (Antrian)
+Adalah suatu jenis struktur data yang dapat diproses dengan sifat FIFO (First In First Out), dimana elemen yang pertama kali masuk ke antrian akan keluar pertama kalinya. Ada dua jenis operasi yang bias dilakukan diantrian, yaitu enqueue (memasukkan elemen baru ke dalam elemen) dan dequeue (mengeluarkan satu elemen dari suatu antrian). Antrian dapat dibuat dengan menggunakan Liniear Array dan Circular Array. 
+
+![Ilustrasi Proses Queue](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/66c68a32-3734-4c0e-8d45-0828d2f783a0)<br/>
+
+- Fungsi-Fungsi Pada Queue<br/>
+  1. Fungsi Initialize :<br/>
+     void initialize ( queue *q )<br/>
+     {<br/>
+         q -> jumlah = 0;<br/>
+         q -> depan = 0;<br/>
+         q -> belakang = 0;<br/>
+     }<br/>
+  2. Fungsi Is_Empty, yang antara lain digunakan untuk:<br/>
+     a. Untuk memeriksa apakah antrian sudah penuh atau belum.>br/>
+     b. Dengan cara memeriksa nilai Tail, jika Tail = -1 maka empty.<br/>
+     c. Tidak perlu memeriksa Head, karena Head adalah tanda untuk kepala antrian (elemen
+     pertama dalam antrian) yang tidak akan berubah.<br/>
+  4. Fungsi Is_Full, berfungsi untuk:<br/>
+     a. Untuk mengecek apakah antrian sudah penuh atau belum.<br/>
+     b. Dengan cara mengecek nilai Tail, jika Tail >= MAX-1 (karena MAX-1 adalah batas elemen
+     array pada C) berarti sudah penuh.<br/>
+  6. Fungsi Enqueue, berfungsi untuk:<br/>
+     a. Untuk menambahkan elemen ke dalam antrian, penambahan elemen selalu ditambahkan di
+     elemen paling belakang.<br/>
+     b. Penambahan elemen selalu menggerakan variabel Tail dengan cara increment counter
+     Tail.<br/>
+  8. Fungsi Dequeue, berfungsi untuk:<br/>
+     a. Digunakan untuk menghapus elemen terdepan/pertama dari antrian.<br/>
+     b. Dengan cara mengurangi counter Tail dan menggeser semua elemen antrian kedepan<br/>
+     c. Penggeseran dilakukan dengan menggunakan looping.<br/>
+  9. Fungsi Tampil berfungsi untuk menampilkan nilai-nilai elemen dalam antrian dam
+     menggunakan looping dari head sampai tail.<br/>
+  
+- Perbedaan implementasi queue dengan linked list dan queue dengan array<br/>
+  1. Implementasi queue dengan linked list memiliki kompleksitas pada pengimplementasian,
+     sedangkan pada array implementasi sederhana.<br/>
+  2. Pada linked list pengalokasian memori dinamis, sedangkan pada array ukuran memori harus
+     ditentukan ketika sebuah objek queue dideklarasikan.<br/>
+  3. Queue dengan linked list menggunakan 2 buah pointer, qFront dan qRear untuk menandai
+     posisi depan dan belakang dari queue, sedangkan queue dengan array pemborosan tempat
+     (memori) ketika menggunakan jumlah data yang lebih sedikit dari alokasi memory.<br/>
 
 ## Guided 
 
