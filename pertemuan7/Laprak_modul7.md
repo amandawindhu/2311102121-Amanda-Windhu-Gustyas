@@ -6,7 +6,7 @@
 - Queue (Antrian)
 Adalah suatu jenis struktur data yang dapat diproses dengan sifat FIFO (First In First Out), dimana elemen yang pertama kali masuk ke antrian akan keluar pertama kalinya. Ada dua jenis operasi yang bias dilakukan diantrian, yaitu enqueue (memasukkan elemen baru ke dalam elemen) dan dequeue (mengeluarkan satu elemen dari suatu antrian). Antrian dapat dibuat dengan menggunakan Liniear Array dan Circular Array. 
 
-    ![Ilustrasi Proses Queue](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/66c68a32-3734-4c0e-8d45-0828d2f783a0)<br/>
+text-align: center; ![Ilustrasi Proses Queue](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/66c68a32-3734-4c0e-8d45-0828d2f783a0)
                                                             Ilustrasi Proses Queue<br/>
             
 - Fungsi-Fungsi Pada Queue<br/>
