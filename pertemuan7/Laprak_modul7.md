@@ -420,4 +420,6 @@ Program di atas merupakan implementasi sederhana dari struktur data antrian di C
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Sihombing, Johnson. (2020). Penerapan Stack dan Queue pada Array dan Linked List. Program Studi Manajemen Informatika, Politeknik Piksi Ganesha. Bandung.<br/>
+[2] Gunawan, R., Yuana, H., & Kirom, S. (2023). Implementasi Metode Queue pada Sistem Antrian Online Berbasis Web: Studi Kasus UPTD Puskesmas Sananwetan. ATI
+    (Jurnal Mahasiswa Teknik Informatika), 7(3), 1538.<br/>
