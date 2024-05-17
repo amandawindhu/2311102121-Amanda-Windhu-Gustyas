@@ -41,9 +41,8 @@ int main () {
 
     return 0;
 }
-
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program di atas adalah implementasi sederhana dari algoritma Sequential Search, yang digunakan untuk mencari angka tertentu dalam suatu array. Dalam kasus ini, program mencari sebuah array dengan 10 elemen yang berisi nilai 9, 4, 1, 7, 5, 12, 4, 13, 4, dan 10. Kemudian, program melakukan iterasi melalui setiap elemen array secara berurutan untuk mencari angka yang dicari. Jika angka ditemukan, program akan menandai hasilnya dan mencetak pesan yang menyatakan bahwa angka tersebut ditemukan beserta indeksnya. Jika angka tidak ditemukan, program akan mencetak pesan yang menyatakan bahwa angka tidak ditemukan dalam data. Dengan demikian, program ini memberikan pengguna informasi tentang apakah angka yang dicari ada dalam array dan di indeks mana angka tersebut ditemukan.
 
 ### 2. [Buatlah sebuah project untuk melakukan pencarian data dengan menggunakan Binary Search.]
 
@@ -133,8 +132,10 @@ int main() {
     return 0;
 }
 ```
-
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program tersebut merupakan implementasi dari algoritma Binary Search yang digunakan untuk mencari angka tertentu dalam sebuah array. Pada awalnya, program ini mendefinisikan sebuah array dengan 7 elemen dan sebuah variabel untuk menyimpan angka yang akan dicari. Kemudian, 
+program melakukan proses pengurutan array menggunakan algoritma Selection Sort agar data terurut secara ascending. Setelah proses pengurutan selesai, program meminta pengguna untuk 
+memasukkan angka yang ingin dicari. Kemudian, program menjalankan algoritma Binary Search untuk mencari angka tersebut dalam array yang telah diurutkan. Jika angka ditemukan, program akan mencetak pesan yang menyatakan angka tersebut ditemukan pada indeks tertentu. Jika angka 
+tidak ditemukan, program akan mencetak pesan yang menyatakan bahwa angka tidak ditemukan dalam data. Dengan demikian, program ini memberikan kemampuan untuk mencari angka dalam array menggunakan algoritma Binary Search setelah melakukan pengurutan menggunakan Selection Sort.
 
 ## Unguided 
 
@@ -191,7 +192,8 @@ int main() {
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program tersebut merupakan implementasi algoritma Binary Search untuk mencari keberadaan sebuah huruf dalam sebuah kalimat. Pada awalnya, program meminta pengguna untuk memasukkan sebuah kalimat dan huruf yang ingin dicari. Selanjutnya, program akan melakukan pengurutan 
+karakter-karakter dalam kalimat secara ascending. Setelah itu, program menjalankan algoritma Binary Search untuk mencari huruf yang dicari dalam kalimat yang telah diurutkan. Jika huruf tersebut ditemukan, program mencetak pesan yang menyatakan bahwa huruf tersebut ditemukan. Jika huruf tidak ditemukan, program mencetak pesan yang menyatakan bahwa huruf tidak ditemukan dalam kalimat. Dengan demikian, program ini memberikan kemampuan untuk mencari keberadaan sebuah huruf dalam kalimat menggunakan algoritma Binary Search setelah melakukan pengurutan karakter dalam kalimat.
 
 ### 2. [Buatlah sebuah program yang dapat menghitung banyaknya huruf vocal dalam sebuah kalimat!]
 
@@ -238,7 +240,9 @@ int huruf_vokal(const string& kalimat) {
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program tersebut merupakan implementasi dari fungsi yang digunakan untuk menghitung jumlah huruf vokal dalam sebuah kalimat. Program ini menggunakan algoritma untuk menghitung jumlah huruf vokal dalam kalimat yang diberikan pengguna. Program pertama-tama mendefinisikan variabel `kalimat` untuk menampung kalimat yang diberikan pengguna. Kemudian, program mendefinisikan fungsi `huruf_vokal()` yang digunakan untuk menghitung jumlah huruf vokal dalam kelimat. 
+Dalam fungsi `huruf_vokal()`, program pertama-tama mendefinisikan variabel `count` untuk menampung jumlah huruf vokal dan string `vokal` yang berisi huruf vokal. Setelah itu, program mengubah semua karakter dalam kalimat menjadi huruf kecil menggunakan fungsi `transform()` dari library `algorithm` untuk memastikan pencarian huruf vokal tidak sensitif terhadap huruf besar atau kecil. Program lalu melakukan perulangan melalui setiap karakter dalam kalimat yang telah diubah menjadi huruf kecil dan menghitung jumlah huruf vokal yang ditemukan.
+Dalam fungsi `main()`, program pertama-tama menampilkan pesan "Program Menghitung Huruf Vokal" dan meminta pengguna untuk memasukkan kalimat. Program kemudian menghitung jumlah huruf vokal dalam kalimat menggunakan fungsi `huruf_vokal()` dan mencetak hasil perhitungan jumlah huruf vokal. Program akhirnya menampilkan jumlah huruf vokal yang ditemukan dalam kalimat.
 
 ### 3. [Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search!]
 
