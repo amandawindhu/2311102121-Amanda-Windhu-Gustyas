@@ -42,7 +42,7 @@ int main () {
     return 0;
 }
 ```
-Program di atas adalah implementasi sederhana dari algoritma Sequential Search, yang digunakan untuk mencari angka tertentu dalam suatu array. Dalam kasus ini, program mencari sebuah array dengan 10 elemen yang berisi nilai 9, 4, 1, 7, 5, 12, 4, 13, 4, dan 10. Kemudian, program melakukan iterasi melalui setiap elemen array secara berurutan untuk mencari angka yang dicari. Jika angka ditemukan, program akan menandai hasilnya dan mencetak pesan yang menyatakan bahwa angka tersebut ditemukan beserta indeksnya. Jika angka tidak ditemukan, program akan mencetak pesan yang menyatakan bahwa angka tidak ditemukan dalam data. Dengan demikian, program ini memberikan pengguna informasi tentang apakah angka yang dicari ada dalam array dan di indeks mana angka tersebut ditemukan.
+Program tersebut merupakan implementasi sederhana dari algoritma Sequential Search, yang digunakan untuk mencari angka tertentu dalam suatu array. Dalam kasus ini, program mencari sebuah array dengan 10 elemen yang berisi nilai 9, 4, 1, 7, 5, 12, 4, 13, 4, dan 10. Kemudian, program melakukan iterasi melalui setiap elemen array secara berurutan untuk mencari angka yang dicari. Jika angka ditemukan, program akan menandai hasilnya dan mencetak pesan yang menyatakan bahwa angka tersebut ditemukan beserta indeksnya. Jika angka tidak ditemukan, program akan mencetak pesan yang menyatakan bahwa angka tidak ditemukan dalam data. Dengan demikian, program ini memberikan pengguna informasi tentang apakah angka yang dicari ada dalam array dan di indeks mana angka tersebut ditemukan.
 
 ### 2. [Buatlah sebuah project untuk melakukan pencarian data dengan menggunakan Binary Search.]
 
@@ -279,7 +279,7 @@ int main()
 #### Output:
 ![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program tersebut merupakan implementasi dari algoritma Sequential Search untuk menghitung banyak angka dalam sebuah array. Dalam kasus ini, program mencari angka 4 dalam array yang berisi nilai 9, 4, 1, 4, 7, 10, 5, 4, 12, dan 4. Program pertama-tama mendefinisikan variabel konstan `n` dengan nilai 10 dan mendefinisikan array `data` yang berisi nilai-nilai. Kemudian, program mendefinisikan variabel `cari` dengan nilai 4 dan variabel `count` untuk menampung jumlah angka 4. Program lalu melakukan perulangan setiap elemen dalam array `data` dan memeriksa jika elemen saat ini sama dengan nilai `cari`. Jika elemen array saat ini sama dengan nilai `cari`, program akan meningkatkan nilai `count` untuk menampung jumlah angka 4. Setelah perulangan selesai, program mencetak hasil perhitungan jumlah angka 4 dalam array `data`. Program akhirnya menghapus memori yang dialokasikan untuk array `data` menggunakan fungsi `delete[]`.
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
