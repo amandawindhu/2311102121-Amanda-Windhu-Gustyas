@@ -190,7 +190,8 @@ int main() {
 }
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![SS_Unguided_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/6ca4c94b-cedc-44c8-9e00-eb17b64f8743)<br/>
+![SS_Unguided1_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/95b6685d-ed5d-4857-9245-3bd329d90431)<br/>
 
 Program tersebut merupakan implementasi algoritma Binary Search untuk mencari keberadaan sebuah huruf dalam sebuah kalimat. Pada awalnya, program meminta pengguna untuk memasukkan sebuah kalimat dan huruf yang ingin dicari. Selanjutnya, program akan melakukan pengurutan 
 karakter-karakter dalam kalimat secara ascending. Setelah itu, program menjalankan algoritma Binary Search untuk mencari huruf yang dicari dalam kalimat yang telah diurutkan. Jika huruf tersebut ditemukan, program mencetak pesan yang menyatakan bahwa huruf tersebut ditemukan. Jika huruf tidak ditemukan, program mencetak pesan yang menyatakan bahwa huruf tidak ditemukan dalam kalimat. Dengan demikian, program ini memberikan kemampuan untuk mencari keberadaan sebuah huruf dalam kalimat menggunakan algoritma Binary Search setelah melakukan pengurutan karakter dalam kalimat.
