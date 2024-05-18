@@ -15,7 +15,7 @@ Ada beberapa algoritma yang bisa digunakan untuk melakukan pencarian, salah satu
      Worse case atau kemungkinan terburuk akan terjadi apabila data yang dicari terletak pada index array yang paling akhir, sehingga waktu yang
      dibutuhkan untuk mencari data akan sangat lama.<br/>
   Untuk meningkatkan efisiensi pencarian data pada Sequential Search dapat dilakukan dengan cara menghentikan looping dengan menggunakan BREAK apabila data yang
-  dicari sudah ketemu<br/>
+  dicari sudah ketemu.<br/>
 ![Proses_pencarian_sequentialsearch](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3f32f078-fa3e-45ef-b7ec-05b2ad3759d0)<br/>
 - Langkah-langkah pencarian dengan sequential search:<br/>
   1. Melakukan perbandingan beruntun pada kumpulan data dengan menggunakan keyword atau kata kunci yang akan dicari.<br/>
@@ -321,4 +321,6 @@ Program tersebut merupakan implementasi dari algoritma Sequential Search untuk m
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Markuci, D., & Prianto, C. (2022). Analisis Perbandingan Penggunaan Algoritma Sequential Search dan Binary Search pada Aplikasi Surat Perjalanan Dinas. Jurnal Informatika dan Komputer, 6(1), 110.<br/>
+[2] Religia, Y. (2019). Analisis Algoritma Sequential Search dan Binary Search pada Big Data. Pelita Teknologi: Jurnal Ilmiah Informatika, Arsitektur dan Lingkungan, 14(1), 74-79.<br/>
+[3] Wahyuni, W. S., Andryana, S., & Rahman, B. (2022). Penggunaan Algoritma Sequential Searching pada Aplikasi Perpustakaan Berbasis Web. JIPI (Jurnal Ilmiah Penelitian dan Pembelajaran Informatika), 7(2), 294-302. E-ISSN: 2540-8984.<br/>
