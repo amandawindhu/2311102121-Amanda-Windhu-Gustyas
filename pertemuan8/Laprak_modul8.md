@@ -3,8 +3,43 @@
 
 ## Dasar Teori
 
-- Algoritma Sequential Search
+Ada beberapa algoritma yang bisa digunakan untuk melakukan pencarian, salah satunya adalah Sequential Search, yaitu algoritma yang dasar dan simpel dari pencarian, dimana menggunakan metode pencarian data dari paling awal hingga paling akhir dari sebuah list sampai data ditemukan. Selain itu ada algoritma Binary Search, yaitu sebuah list yang sudah terurut kemudian dibagi menjadi dua bagian. Awalnya adalah membandingkan inputan dengan nilai tengah, selanjutnya dibandingkan ke kanan atau ke kiri sesuai dengan urutan listnya.<br/>
+- Sequential Search<br/>
+  Sequential search adalah cara untuk pencarian data dalam array 1 dimensi. Data yang akan dicari nanti akan ditelusuri dalam semua elemenelemen array dari awal
+  sampai akhir, dan data yang dicari tersebut tidak perlu diurutkan terlebih dahulu. Terdapat 2 kemungkinan yang akan terjadi dalam waktu pencarian data
+  Sequential Search, diantaranya yaitu:<br/>
+  1. Best Case<br/>
+     Best case atau kemungkinan terbaik akan terjadi apabila data yang dicari terletak pada index array yang paling depan, sehingga waktu yang dibutuhkan untuk
+     mencari data sedikit.<br/>
+  2. Worse Case<br/>
+     Worse case atau kemungkinan terburuk akan terjadi apabila data yang dicari terletak pada index array yang paling akhir, sehingga waktu yang
+     dibutuhkan untuk mencari data akan sangat lama.<br/>
+  Untuk meningkatkan efisiensi pencarian data pada Sequential Search dapat dilakukan dengan cara menghentikan looping dengan menggunakan BREAK apabila data yang
+  dicari sudah ketemu<br/>
+![Proses_pencarian_sequentialsearch](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3f32f078-fa3e-45ef-b7ec-05b2ad3759d0)<br/>
+- Langkah-langkah pencarian dengan sequential search:<br/>
+  1. Melakukan perbandingan beruntun pada kumpulan data dengan menggunakan keyword atau kata kunci yang akan dicari.<br/>
+  2. Pencarian ini melakukan looping atau pengulangan dari data pertama hingga jumlah data ke-n.<br/>
+  3. Setiap perulangan dilakukan pencocokan data dengan kata kunci yang dicari.<br/>
+  4. Apabila terdapat kecocokan data dengan kata kunci yang di cari maka data berhasil ditemukan dan pencarian di hentikan, sebaliknya apabila tidak ada
+     kecocokan data hingga data terakhir maka pencarian dihentikan dan data tidak ditemukan.<br/>
   
+- Binary Search<br/>
+  Binary Search adalah cara untuk pencarian data pada array yang sudah terurut. karena salah satu syarat dalam Binary Search adalah data sudah dalam keadaan
+  terurut, dengan kata lain apabila data belum dalam keadaan terurut, pencarian Binary tidak dapat dilakukan. Binary Search ini dilakukan untuk:<br/>
+  1. Memperkecil jumlah operasi perbandingan yang harus dilakukan antara data yang dicari dengan data yang ada didalam tabel, khususnya untuk jumlah data yang
+     sangat besar ukurannya.<br/>
+  2. Beban komputasi lebih kecil karena pencarian dilakukan dari depan, belakang dan tengah.<br/>
+  3. Prinsip dasarnya adalah melakukan proses pembagian ruang pencarian secara berulang-ulang sampai data ditemukan atau sampai pencarian tidak dapat dibagi lagi
+     (berarti terdapat kemungkinan data tidak ditemukan).<br/>
+     
+![Langkah_Kerja_BinarySearch](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8a823f08-5276-4aef-9f9c-32676a7a6214)<br/>
+- Berikut langkah-langkah pencarian binary search:<br/>
+  1. Mengurutkan data terlebih dahulu bisa secara ascending (dari depan ke belakang) atau descending (dari belakang ke depan).<br/>
+  2. Membagi dua array atau keseluruhan data. Apabila data yang dicari lebih kecil dari data yang terletak di tengah, maka pencarian data akan berlanjut kesebelah
+     kiri. Apabila data yang dicari lebih besar dari data terletak ditengah, maka pencarian data akan berlanjut kesebelah kanan kemudian proses pencarian
+     tersebut akan terus berulang sampai data yang dimaksud atau dicari dapat ditemukan<br/>
+     
 ## Guided 
 
 ### 1. [Buatlah sebuah project dengan menggunakan sequential search sederhana untuk melakukan pencarian data.]
