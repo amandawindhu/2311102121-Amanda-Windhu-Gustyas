@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Axioo Pongo/OneDrive/Documents/SEMESTER 2/Algoritma Struktur Data/2311102121-Amanda-Windhu-Gustyas/pertemuan8",
-      "program": "c:/Users/Axioo Pongo/OneDrive/Documents/SEMESTER 2/Algoritma Struktur Data/2311102121-Amanda-Windhu-Gustyas/pertemuan8/build/Debug/outDebug",
+      "cwd": "c:/Users/Axioo Pongo/OneDrive/Documents/SEMESTER 2/Algoritma Struktur Data/2311102121-Amanda-Windhu-Gustyas/pertemuan8/Unguided",
+      "program": "c:/Users/Axioo Pongo/OneDrive/Documents/SEMESTER 2/Algoritma Struktur Data/2311102121-Amanda-Windhu-Gustyas/pertemuan8/Unguided/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
