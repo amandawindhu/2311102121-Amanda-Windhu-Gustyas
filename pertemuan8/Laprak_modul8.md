@@ -179,6 +179,9 @@ tidak ditemukan, program akan mencetak pesan yang menyatakan bahwa angka tidak d
 ```C++
 // Oleh Amanda Windhu Gustyas_2311102121
 #include <iostream>
+#include <conio.h>
+#include <iomanip>
+#include <string>
 #include <algorithm>
 
 using namespace std;
@@ -186,50 +189,56 @@ using namespace std;
 string kalimat;
 char cari;
 
-// Fungsi untuk melakukan pencarian biner pada string yang telah diurutkan
-bool binary_search(const string& kalimat, char cari) {
- int awal = 0, akhir = kalimat.length() - 1;
- while (awal <= akhir) {
- int tengah = (awal + akhir) / 2; // Menghitung indeks tengah
- if (kalimat[tengah] == cari) {
- return true; // Huruf ditemukan
- } else if (kalimat[tengah] < cari) {
- awal = tengah + 1; // Cari di bagian kanan
- } else {
- akhir = tengah - 1; // Cari di bagian kiri
- }
- }
- return false; // Huruf tidak ditemukan
+// Fungsi untuk melakukan binary search pada string
+void binarySearch(){
+    int awal, akhir, tengah;
+    bool b_flag = false; // Flag untuk menandakan apakah data ditemukan
+    awal = 0;
+    akhir = kalimat.length() - 1;
+    while (!b_flag && awal <= akhir)
+    {
+        tengah = (awal + akhir)/2;
+        if (kalimat[tengah] == cari)
+        {
+            b_flag = true;  // Data ditemukan
+        } else if (kalimat[tengah] <  cari)
+        {
+            awal = tengah +1; // Cari di bagian kanan
+        } else {
+            akhir = tengah -1; // Cari di bagian kiri
+        }
+    }
+    if (b_flag){
+        cout << "\nData ditemukan pada index ke- " << tengah <<endl;
+    } else {
+        cout << "\nDATA TIDAK DITEMUKAN" << endl;
+    }
 }
-int main() {
-    cout << "--- MENCARI HURUF ---\n";
-    cout << "Masukkan kalimat: ";
-    getline(cin, kalimat);
-    cout << "Masukkan huruf yang ingin dicari: ";
-    cin >> cari;
-    cari = tolower(cari); // Mengubah huruf yang dicari menjadi huruf kecil
 
-    // Mengurutkan kalimat agar bisa dilakukan pencarian biner
+int main() {
+    cout << "---Cari Huruf---"<<endl;
+    cout << "Masukkan kalimat : ";
+    getline(cin, kalimat);
+    cout << "Masukkan huruf yang ingin dicari : ";
+    cin >> cari;
+
+    // Mengurutkan kalimat
     sort(kalimat.begin(), kalimat.end());
 
-    // Melakukan pencarian biner
-    bool ditemukan = binary_search(kalimat, cari);
+    cout << "\nKalimat diurutkan : " << kalimat << endl;
 
-    // Menampilkan hasil pencarian
-    if (ditemukan) {
-    cout << "Huruf " << cari << " ditemukan." << endl;
-    } else {
-    cout << "Huruf " << cari << " tidak ditemukan." << endl;
-        }
+    cout << "\nBinary Search untuk mencari huruf '" << cari << "' dalam kalimat '" << kalimat << "' : ";
+    binarySearch(); // Memanggil fungsi untuk melakukan pencarian biner
+    _getche(); // Menunggu pengguna menekan tombol sebelum keluar
     return 0;
 }
 ```
 #### Output:
-![SS_Unguided_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/6ca4c94b-cedc-44c8-9e00-eb17b64f8743)<br/>
-![SS_Unguided1_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/95b6685d-ed5d-4857-9245-3bd329d90431)<br/>
+![SS_Unguided1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/c049b81d-1560-41fb-88a0-f32a1fa2f6be)<br/>
+![SS_Unguided1_!](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/7312ba95-85bc-4551-b502-1a8664a37cfb)<br/>
 
-Program tersebut merupakan implementasi algoritma Binary Search untuk mencari keberadaan sebuah huruf dalam sebuah kalimat. Pada awalnya, program meminta pengguna untuk memasukkan sebuah kalimat dan huruf yang ingin dicari. Selanjutnya, program akan melakukan pengurutan 
-karakter-karakter dalam kalimat secara ascending. Setelah itu, program menjalankan algoritma Binary Search untuk mencari huruf yang dicari dalam kalimat yang telah diurutkan. Jika huruf tersebut ditemukan, program mencetak pesan yang menyatakan bahwa huruf tersebut ditemukan. Jika huruf tidak ditemukan, program mencetak pesan yang menyatakan bahwa huruf tidak ditemukan dalam kalimat. Dengan demikian, program ini memberikan kemampuan untuk mencari keberadaan sebuah huruf dalam kalimat menggunakan algoritma Binary Search setelah melakukan pengurutan karakter dalam kalimat.
+Program tersebut merupakan implementasi algoritma Binary Search untuk mencari huruf dalam sebuah kalimat. Program meminta pengguna untuk memasukan sebuah kalimat dan huruf yang ingin dicari. Kemudian, program akan mencari huruf tersebut dalam kalimat menggunakan algoritma Binary Search dan menampilkan hasilnya.<br/>
+Pertama-tama program mengurutkan kalimat yang diberikan pengguna secara alfabetis menggunakan fungsi dari `sort` `algorithm`, lalu memanggil fungsi untuk melakukan pencarian huruf dalam kalimat yang telah diurutkan `binarySearch`. Fungsi menggunakan algoritma Binary Search untuk mencari huruf yang ingin dicari. Algoritma ini bekerja dengan cara membagi kalimat menjadi dua bagian, kemudian mencari huruf di bagian yang dipilih. Proses ini diulangi hingga huruf ditemukan atau kalimat tidak ditemukan `binarySearch`. Jika huruf ditemukan, program akan menampilkan indeks huruf yang ditemukan. Jika tidak ditemukan, program akan menampilkan "DATA TIDAK DITEMUKAN".
 
 ### 2. [Buatlah sebuah program yang dapat menghitung banyaknya huruf vocal dalam sebuah kalimat!]
 
