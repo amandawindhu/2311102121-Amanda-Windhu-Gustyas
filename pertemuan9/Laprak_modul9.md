@@ -4,6 +4,7 @@
 ## Dasar Teori
 
 ### 1. Graph<br/>
+![graf1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/c4db0f7b-3f06-4d51-bafe-87651feb3704)<br/>
 Graf didefinisikan sebagai pasangan himpunan (V,E), yang dalam hal ini V adalah himpunan tidak kosong dari simpul-simpul (verticers atau node) = {v1, v2, v3,...} dan E himpunan sisi (edges atau arcs) yang menghubungkan sepasang simpul {e1, e2, e3, ...} atau dapat di tulis dengan notasi G = {V,E}. Graf dapat dikelompokkan menjadi beberapa kategori (jenis) bergantung pada sudut pandang pengelompokannya. Pengelompokan
 graf dapat dipandang berdasarkan ada tidaknya sisi ganda atau sisi kalang, berdasarkan jumlah simpul, atau berdasarkan orientasi arah pada sisi.<br/>
 - Berdasarkan ada tidaknya gelang atau sisi ganda pada suatu graf, secara umum graf dapat digolongkan menjadi dua jenis:<br/>
@@ -83,4 +84,6 @@ Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktika
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Nugroho, D., & Budayasa, I. K. (2024). Graf berarah sebagai representasi turnamen “Round-Robin” dan sifat-sifatnya. MATHunesa: Jurnal Ilmiah Matematika, 12(01). e-ISSN: 2716-506X, p-ISSN: 2301-9115.<br/>
+[2] Nggufron, N., Rochmad, & Mashuri. (2019). Pencarian rute terbaik pemadam kebakaran Kota Semarang menggunakan algoritma Dijkstra dengan logika fuzzy sebagai penentu bobot pada graf. UNNES Journal of Mathematics (UJM), 8(1).<br/>
+[3] Yusuf, R., Dewi, F. P., Firmansyah, & Mujib, A. (2022). Generalisasi bilangan kromatik pada beberapa kelas graf korona. Jurnal Derivat, 9(2), Desember. ISSN: 2549-2616<br/>
