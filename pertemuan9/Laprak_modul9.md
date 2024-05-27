@@ -112,8 +112,7 @@ int main() {
 }
 ```
 Program di atas merupakan program graph yang bertujuan untuk menampilkan representasi graf dari beberapa kota di Indonesia beserta hubungan (busur) dan bobot antar kota tersebut. Graf direpresentasikan sebagai array 2D dimana setiap elemen mewakili berat atau biaya perjalanan dari satu kota ke kota lain. Program ini menggunakan fungsi yang dipanggil untuk mencetak grafik dalam format yang dapat dibaca, menunjukkan setiap kota dan hubungannya dengan kota lain beserta bobotnya. `tampilGraph()`.<br/>
-Pertama-tama program dimulai dengan mendefinisikan serangkaian string yang berisi nama tujuh kota di Indonesia: Ciamis, Bandung, Bekasi, Tasikmalaya, Cianjur, Purwokerto, dan Yogyakarta. Ini juga mendefinisikan array 2D di mana setiap elemen mewakili berat atau biaya perjalanan dari satu kota ke kota lain.`simpul``busur`. Kemudian, fungsi utama yang akan memanggil `tampilGraph()` untuk menampilkan graf ketika program dijalankan.
-
+Pertama-tama program dimulai dengan mendefinisikan serangkaian string yang berisi nama tujuh kota di Indonesia: Ciamis, Bandung, Bekasi, Tasikmalaya, Cianjur, Purwokerto, dan Yogyakarta. Ini juga mendefinisikan array 2D di mana setiap elemen mewakili berat atau biaya perjalanan dari satu kota ke kota lain.`simpul` `busur`. Kemudian, fungsi utama yang akan memanggil `tampilGraph()` untuk menampilkan graf ketika program dijalankan.
 ### 2. [Program Tree]
 
 ```C++
