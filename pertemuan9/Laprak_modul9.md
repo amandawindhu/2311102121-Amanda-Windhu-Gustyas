@@ -414,62 +414,486 @@ int main() {
     cout << "\n" << endl;
 }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Program di atas adalah implementasi dari struktur data pohon biner dalam bahasa C++. Program ini mencakup berbagai fungsi untuk manipulasi dan penelusuran pohon biner, seperti inisialisasi, penambahan node, penghapusan, penelusuran, dan penghitungan karakteristik pohon. Pertama-tama program dimulai dengan inisialisasi pohon, kemudian membuat simpul akar (root) dan beberapa simpul anak. Selanjutnya, simpul anak disisipkan ke dalam pohon pada posisi kiri atau kanan sesuai kebutuhan. Setelah itu, program memungkinkan pembaruan dan pengambilan data dari simpul tertentu. Informasi detail mengenai simpul, termasuk parent, sibling, dan children, dapat ditampilkan. Program juga menampilkan karakteristik pohon seperti ukuran, tinggi, dan rata-rata node. Selain itu, penelusuran pohon dilakukan dalam tiga metode: pre-order, in-order, dan post-order. Jika diperlukan, program dapat menghapus seluruh pohon atau sub-pohon.<br/>
 
 ## Unguided 
 
-### 1. [Soal]
+### 1. [Buatlah program graph dengan menggunakan inputan user untuk menghitung jarak dari sebuah kota ke kota lainnya.]
+### Output Program:<br/>
+![Soal_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/f172fa24-9493-451f-b623-9075b8721b6a)<br/>
 
 ```C++
-#include <iostream>   
-#include <iomanip>     
+// Oleh Amanda Windhu Gustyas_2311102121
+#include <iostream>
+#include <vector>
+#include <string>
 
-using namespace std;  
+using namespace std;
 
-// Array nama kota yang direpresentasikan sebagai string
-string simpul[7] = {
-    "Ciamis", "Bandung", "Bekasi", "Tasikmalaya", "Cianjur", "Purwokerto", "Yogyakarta"
-};
+// Fungsi untuk menampilkan adjacency matrix
+void displayMatrix(vector<vector<int>> & matrix, vector<string>& nodes) {
+    int amanda_2311102121 = matrix.size(); // Mendapatkan jumlah simpul dari ukuran matrix
 
-// Array 2D yang mewakili matriks ketetanggaan untuk graf
-// Setiap elemen merepresentasikan bobot dari busur (edge) antara simpul (kota)
-int busur[7][7] = {
-    {0, 7, 8, 0, 0, 0, 0},    // Dari Ciamis ke Bandung (7), Bekasi (8)
-    {0, 0, 5, 0, 0, 15, 0},   // Dari Bandung ke Bekasi (5), Purwokerto (15)
-    {0, 6, 0, 0, 5, 0, 0},    // Dari Bekasi ke Bandung (6), Cianjur (5)
-    {0, 5, 0, 0, 2, 4, 0},    // Dari Tasikmalaya ke Bandung (5), Cianjur (2), Purwokerto (4)
-    {23, 0, 0, 10, 0, 0, 8},  // Dari Cianjur ke Ciamis (23), Tasikmalaya (10), Yogyakarta (8)
-    {0, 0, 0, 7, 0, 0, 3},    // Dari Purwokerto ke Tasikmalaya (7), Yogyakarta (3)
-    {0, 0, 0, 9, 4, 0}        // Dari Yogyakarta ke Tasikmalaya (9), Cianjur (4)
-};
-
-// Fungsi untuk menampilkan graf dalam format yang mudah dibaca
-void tampilGraph() {
-    // Iterasi setiap simpul (kota)
-    for(int baris = 0; baris < 7; baris++) {
-        cout << " " << setiosflags(ios::left) << setw(15) << simpul[baris] << " : ";
-        // Iterasi setiap kemungkinan koneksi dari simpul saat ini
-        for (int kolom = 0; kolom < 7; kolom++) {
-            if (busur[baris][kolom] != 0) {  // Cek jika ada busur (bobot non-nol)
-                // Cetak simpul yang terhubung dan bobot busurnya
-                cout << " " << simpul[kolom] << " (" << busur[baris][kolom] << ")";
-            }
+    // Menampilkan label simpul di atas adjacency matrix
+    cout << " ";
+    for (int i = 0; i < amanda_2311102121; i++) 
+        {
+            cout << nodes[i] << " ";
         }
-        cout << endl; 
+    cout << endl;
+
+    // Menampilkan adjacency matrix
+    for (int i = 0; i < amanda_2311102121; i++) 
+        {
+            cout << nodes[i] << " ";
+    for (int j = 0; j < amanda_2311102121; j++) {
+        cout << matrix[i][j] << " ";
+         }
+    cout << endl;
+        }
+    }
+
+    int main() {
+    int numNodes;
+    cout << "Silakan masukkan jumlah simpul: "; // Meminta pengguna untuk memasukkan jumlah simpul
+    cin >> numNodes;
+
+    // Mendeklarasikan vektor untuk menyimpan nama-nama simpul
+    vector<string> nodes(numNodes);
+     // Meminta pengguna untuk memasukkan nama simpul
+    cout << "Silakan masukkan nama simpul: " << endl;
+     for (int i = 0; i < numNodes; i++) 
+     {
+         cout << "Simpul " << i + 1 << ": ";
+         cin >> nodes[i];
+     }
+
+     // Mendeklarasikan adjacency matrix sebagai matriks berukuran numNodes x numNodes
+    vector<vector<int>>adjacencyMatrix(numNodes,vector<int>(numNodes));
+     // Meminta pengguna untuk memasukkan bobot antar simpul
+    cout << "\nSilakan masukkan bobot antar simpul: " << endl;
+    for (int i = 0; i < numNodes; i++) 
+    {
+        for (int j = 0; j < numNodes; j++) {
+        cout << nodes[i] << " -> " << nodes[j] << " = ";
+        cin >> adjacencyMatrix[i][j];
+        }
+    }
+    cout << endl;
+ displayMatrix(adjacencyMatrix, nodes); // Memanggil fungsi untuk menampilkan adjacency matrix
+ return 0;
+}
+```
+#### Output:
+![ss_unguided1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/ed6c6a98-c076-41a1-8a38-99f289967d62)
+
+Program di atas berfungsi untuk menampilkan adjacency matrix dari graf yang direpresentasikan oleh pengguna. Pertama-tama program dimulai dengan inisialisasi beberapa pustaka standar dan deklarasi fungsi `displayMatrix` yang bertugas menampilkan adjacency matrix. Fungsi tersebut menerima adjacency matrix dan daftar nama simpul sebagai argumen, kemudian menampilkan matrix tersebut dalam format yang mudah dibaca. Kemudian, di dalam fungsi main, program meminta pengguna untuk memasukkan jumlah simpul pada graf. Berdasarkan jumlah simpul yang dimasukkan, program kemudian meminta nama-nama simpul tersebut. Setelah itu, program mendeklarasikan adjacency matrix sebagai vektor dua dimensi dengan ukuran yang sesuai dengan jumlah simpul. Pengguna diminta untuk memasukkan bobot (weight) antar simpul yang mewakili hubungan antar simpul dalam graf. Setelah semua data dimasukkan, program memanggil fungsi `displayMatrix` untuk menampilkan adjacency matrix yang telah diisi.<br/>
+
+### 2. [Modifikasi guided tree diatas dengan program menu menggunakan input data tree dari user dan berikan fungsi tambahan untuk menampilkan node child dan descendant dari node yang diinput kan!]
+
+```C++
+// Oleh Amanda Windhu Gustyas_2311102121
+#include <iostream>
+using namespace std;
+// Definisi struktur Pohon
+struct Pohon {
+    char data;
+    Pohon* left;
+    Pohon* right;
+    Pohon* parent;
+};
+
+Pohon* root; // Pointer ke simpul root
+Pohon* baru; // Pointer untuk simpul baru
+
+// Fungsi inisialisasi untuk mengatur root menjadi null
+void init() {
+    root = nullptr;
+}
+
+// Fungsi untuk memeriksa apakah pohon kosong
+bool isEmpty() {
+    return root == nullptr;
+}
+
+// Fungsi untuk membuat simpul baru sebagai root
+void buatNode(char data) {
+    if (isEmpty()) {
+        root = new Pohon();
+        root->data = data;
+        root->left = nullptr;
+        root->right = nullptr;
+        root->parent = nullptr;
+        cout << "\nNode " << data << " berhasil dibuat menjadi root." << endl;
+    } else {
+        cout << "\nPohon sudah dibuat" << endl;
     }
 }
 
-// Fungsi utama untuk menjalankan program
+// Fungsi untuk menyisipkan simpul baru sebagai anak kiri dari simpul tertentu
+Pohon* insertLeft(char data, Pohon* node) {
+    if (isEmpty()) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+        return nullptr;
+    } else {
+        if (node->left != nullptr) {
+            cout << "\nNode " << node->data << " sudah ada child kiri!" << endl;
+            return nullptr;
+        } else {
+            baru = new Pohon();
+            baru->data = data;
+            baru->left = nullptr;
+            baru->right = nullptr;
+            baru->parent = node;
+            node->left = baru;
+            cout << "\nNode " << data << " berhasil ditambahkan ke child kiri " << baru->parent->data << endl;
+            return baru;
+        }
+    }
+}
+
+
+// Fungsi untuk menyisipkan simpul baru sebagai anak kanan dari simpul tertentu
+Pohon* insertRight(char data, Pohon* node) {
+    if (isEmpty()) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+        return nullptr;
+    } else {
+        if (node->right != nullptr) {
+            cout << "\nNode " << node->data << " sudah ada child kanan!" << endl;
+            return nullptr;
+        } else {
+            baru = new Pohon();
+            baru->data = data;
+            baru->left = nullptr;
+            baru->right = nullptr;
+            baru->parent = node;
+            node->right = baru;
+            cout << "\nNode " << data << " berhasil ditambahkan ke child kanan " << baru->parent->data << endl;
+            return baru;
+        }
+    }
+}
+
+// Fungsi untuk memperbarui data pada simpul tertentu
+void update(char data, Pohon* node) {
+    if (isEmpty()) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {
+        if (!node) {
+            cout << "\nNode yang ingin diganti tidak ada!!" << endl;
+        } else {
+            char temp = node->data;
+            node->data = data;
+            cout << "\nNode " << temp << " berhasil diubah menjadi " << data << endl;
+        }
+    }
+}
+
+
+// Fungsi untuk mendapatkan data dari simpul tertentu
+void retrieve(Pohon* node) {
+    if (!root) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {
+        if (!node) {
+            cout << "\nNode yang ditunjuk tidak ada!" << endl;
+        } else {
+            cout << "\nData node: " << node->data << endl;
+        }
+    }
+}
+
+void find(Pohon* node) {
+    if (!root) { // Mengecek apakah pohon telah dibuat
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {  // Mengecek apakah node yang ditunjuk tidak ada
+        if (!node) {
+            cout << "\nNode yang ditunjuk tidak ada!" << endl;
+        } else {   // Menampilkan informasi tentang node yang ditunjuk
+            cout << "\nData Node: " << node->data << endl;
+            cout << "Root: " << root->data << endl;
+
+            // Menampilkan informasi tentang parent dari node yang ditunjuk
+            if (!node->parent)
+                cout << "Parent: (tidak punya parent)" << endl;
+            else
+                cout << "Parent: " << node->parent->data << endl;
+
+            // Menampilkan informasi tentang sibling dari node yang ditunjuk
+            if (node->parent != nullptr && node->parent->left != node && node->parent->right == node)
+                cout << "Sibling: " << node->parent->left->data << endl;
+            else if (node->parent != nullptr && node->parent->right != node && node->parent->left == node)
+                cout << "Sibling: " << node->parent->right->data << endl;
+            else
+                cout << "Sibling: (tidak punya sibling)" << endl;
+
+            // Menampilkan informasi tentang child kiri dari node yang ditunjuk
+            if (!node->left)
+                cout << "Child Kiri: (tidak punya Child kiri)" << endl;
+            else
+                cout << "Child Kiri: " << node->left->data << endl;
+            
+             // Menampilkan informasi tentang child kanan dari node yang ditunjuk
+            if (!node->right)
+                cout << "Child Kanan: (tidak punya Child kanan)" << endl;
+            else
+                cout << "Child Kanan: " << node->right->data << endl;
+        }
+    }
+}
+
+// Fungsi untuk melakukan traversal pre-order dari pohon
+void preOrder(Pohon* node) {
+    if (!root) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {
+        if (node != nullptr) {
+            cout << " " << node->data << ", ";
+            preOrder(node->left);
+            preOrder(node->right);
+        }
+    }
+}
+
+// Fungsi untuk melakukan traversal pre-order dari pohon
+void inOrder(Pohon* node) {
+    if (!root) { // Mengecek apakah pohon telah dibuat
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {
+        if (node != nullptr) {
+            inOrder(node->left);
+            cout << " " << node->data << ", ";
+            inOrder(node->right);
+        }
+    }
+}
+
+// Fungsi untuk melakukan traversal post-order dari pohon
+void postOrder(Pohon* node) {
+    if (!root) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {
+        if (node != nullptr) {
+            postOrder(node->left);
+            postOrder(node->right);
+            cout << " " << node->data << ", ";
+        }
+    }
+}
+
+// Fungsi untuk menghapus seluruh pohon
+void deleteTree(Pohon* node) {
+    if (node != nullptr) {
+        if (node->left != nullptr) {
+            deleteTree(node->left);
+            node->left = nullptr;
+        }
+        if (node->right != nullptr) {
+            deleteTree(node->right);
+            node->right = nullptr;
+        }
+        if (node == root) {
+            delete root;
+            root = nullptr;
+        } else {
+            delete node;
+        }
+    }
+}
+
+// Fungsi untuk menghapus subtree dari suatu node
+void deleteSub(Pohon* node) {
+    if (!root) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {
+        if (node->left != nullptr) {
+            deleteTree(node->left);
+            node->left = nullptr;
+        }
+        if (node->right != nullptr) {
+            deleteTree(node->right);
+            node->right = nullptr;
+        }
+        if (node == root) {
+            root = nullptr;
+        }
+    }
+}
+
+// Fungsi untuk membersihkan seluruh pohon
+void clear() {
+    if (!root) {
+        cout << "\nBuat tree terlebih dahulu!" << endl;
+    } else {
+        deleteTree(root);
+        cout << "\nPohon berhasil dihapus." << endl;
+    }
+}
+
+// Fungsi untuk menghitung ukuran pohon
+int size(Pohon* node) {
+    if (node == nullptr)
+        return 0;
+    else
+        return 1 + size(node->left) + size(node->right);
+}
+
+// Fungsi untuk menghitung tinggi pohon
+int height(Pohon* node) {
+    if (node == nullptr)
+        return 0;
+    else {
+        int heightKiri = height(node->left);
+        int heightKanan = height(node->right);
+        return (heightKiri >= heightKanan) ? heightKiri + 1 : heightKanan + 1;
+    }
+}
+
+// Fungsi untuk menampilkan karakteristik pohon (ukuran, tinggi, rata-rata node)
+void characteristic() {
+    int sz = size(root);
+    int ht = height(root);
+    cout << "\nSize Tree: " << sz << endl;
+    cout << "Height Tree: " << ht << endl;
+    cout << "Average Node of Tree: " << (ht == 0 ? 0 : sz / ht) << endl;
+}
+
+// Fungsi untuk mencari node dalam pohon berdasarkan nilai
+Pohon* findNode(Pohon* node, char value) {
+    if (!node) return nullptr;
+    if (node->data == value) return node;
+    Pohon* foundNode = findNode(node->left, value);
+    if (foundNode) return foundNode;
+    return findNode(node->right, value);
+}
+
+// Fungsi untuk menampilkan menu interaksi pengguna
+void displayMenu() {
+    cout << "----------MENU----------" << endl;
+    cout << "1. Buat Tree\n";
+    cout << "2. Tambah Child Kiri\n";
+    cout << "3. Tambah Child Kanan\n";
+    cout << "4. Ubah Data Node\n";
+    cout << "5. Tampilkan Data Node\n";
+    cout << "6. Cari Node\n";
+    cout << "7. Traversal Preorder\n";
+    cout << "8. Traversal Inorder\n";
+    cout << "9. Traversal Postorder\n";
+    cout << "10. Hapus Subtree\n";
+    cout << "11. Hapus Tree\n";
+    cout << "12. Tampilkan Karakteristik Tree\n";
+    cout << "13. Keluar\n";
+}
+
 int main() {
-    tampilGraph();  // Panggil fungsi untuk menampilkan graf
-    return 0;      
+    init(); // Inisialisasi pohon
+    int amanda_2311102121;
+    char data, parentData;
+    Pohon* parentNode; // Pointer ke parent node
+
+    while (true) {
+        displayMenu();  // Menampilkan menu
+        cout << "Pilih opsi: ";
+        cin >> amanda_2311102121;
+
+        switch (amanda_2311102121) {
+            case 1: // Menambahkan root ke pohon
+                cout << "Masukkan nilai root: ";
+                cin >> data;
+                buatNode(data);
+                break;
+            case 2: // Menambahkan child kiri ke suatu node
+                cout << "Masukkan nilai parent: ";
+                cin >> parentData;
+                parentNode = findNode(root, parentData);
+                cout << "Masukkan nilai node kiri baru: ";
+                cin >> data;
+                insertLeft(data, parentNode);
+                break;
+            case 3: // Menambahkan child kanan ke suatu node
+                cout << "Masukkan nilai parent: ";
+                cin >> parentData;
+                parentNode = findNode(root, parentData);
+                cout << "Masukkan nilai node kanan baru: ";
+                cin >> data;
+                insertRight(data, parentNode);
+                break;
+            case 4: // Mengubah nilai suatu node
+                cout << "Masukkan nilai node yang ingin diubah: ";
+                cin >> parentData;
+                parentNode = findNode(root, parentData);
+                cout << "Masukkan nilai baru: ";
+                cin >> data;
+                update(data, parentNode);
+                break;
+            case 5: // Menampilkan nilai suatu node
+                cout << "Masukkan nilai node: ";
+                cin >> data;
+                parentNode = findNode(root, data);
+                retrieve(parentNode);
+                break;
+            case 6: // Mencari node dalam pohon berdasarkan nilai
+                cout << "Masukkan nilai node yang ingin dicari: ";
+                cin >> data;
+                parentNode = findNode(root, data);
+                find(parentNode);
+                break;
+            case 7: // Traversal pre-order dari pohon
+                cout << "\nPreorder traversal: ";
+                preOrder(root);
+                cout << endl;
+                break;
+            case 8: // Traversal in-order dari pohon
+                cout << "\nInorder traversal: ";
+                inOrder(root);
+                cout << endl;
+                break;
+            case 9: // Traversal post-order dari pohon
+                cout << "\nPostorder traversal: ";
+                postOrder(root);
+                cout << endl;
+                break;
+            case 10: // Menghapus subtree dari suatu node
+                cout << "Masukkan nilai node subtree yang ingin dihapus: ";
+                cin >> data;
+                parentNode = findNode(root, data);
+                deleteSub(parentNode);
+                break;
+            case 11: // Menghapus seluruh pohon
+                clear();
+                break;
+            case 12:  // Menampilkan karakteristik pohon
+                characteristic();
+                break;
+            case 13: // Keluar dari program
+                return 0;
+            default:
+                cout << "Pilihan tidak valid, coba lagi." << endl;
+                break;
+        }
+    }
+
+    return 0;
 }
 
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+1. ![1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/6c1dc6a8-4e0c-400c-831c-01f8301ca687)<br/>
+2. ![2](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3371ec03-dfa0-4934-a8d5-76ab82e45983)<br/>
+3. ![3](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/3f0fa3a9-df62-43c9-b4e4-e1ab918aff42)<br/>
+4. ![4](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/a4530216-ec6a-4af7-ad4e-76145061f259)<br/>
+5. ![5](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/804c769d-ccae-4301-a448-8b55e4b25d08)<br/>
+6. ![6](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/137b376a-b877-45a3-a5aa-6a00cf3e9bbe)<br/>
+7. ![7](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8568b539-58fb-4aa2-833d-5c1a97566dcb)<br/>
+8. ![8](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/89df97e7-6acc-47ad-b67b-9ca97d73a7ca)<br/>
+9. ![9](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/615e5270-2c53-4e1d-89dd-e6382622b6ca)<br/>
+10. ![10](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8bb970a9-80b4-4f9a-a480-bce6696ffcd1)<br/>
+    ![10_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e37ec14d-3acd-483b-a3e2-2834e122fe6c)<br/>
+11. ![11](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/1280a3e6-9031-4676-92c7-9d6c18942bf3)<br/>
+12. ![12](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/b6b27861-d079-46ea-a9c2-c7f64614a078)<br/>
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
