@@ -867,8 +867,6 @@ int main() {
                 characteristic();
                 break;
             case 13: // Keluar dari program
-                return 0;
-            default:
                 cout << "Pilihan tidak valid, coba lagi." << endl;
                 break;
         }
@@ -892,8 +890,9 @@ int main() {
     - ![10_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e37ec14d-3acd-483b-a3e2-2834e122fe6c)<br/>
 11. ![11](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/1280a3e6-9031-4676-92c7-9d6c18942bf3)<br/>
 12. ![12](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/b6b27861-d079-46ea-a9c2-c7f64614a078)<br/>
+13. ![13](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/70495a60-687b-4bf6-bf14-4e0a5943e47d)<br/>
 
-
+Program di atas merupakan implementasi dari struktur data pohon biner dalam bahasa C++. Pohon biner adalah struktur data yang terdiri dari simpul (node), di mana setiap simpul memiliki paling banyak dua anak, yaitu anak kiri dan anak kanan. 
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
