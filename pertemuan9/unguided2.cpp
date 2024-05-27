@@ -373,8 +373,6 @@ int main() {
                 characteristic();
                 break;
             case 13: // Keluar dari program
-                return 0;
-            default:
                 cout << "Pilihan tidak valid, coba lagi." << endl;
                 break;
         }
