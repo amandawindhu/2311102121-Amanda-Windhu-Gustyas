@@ -888,8 +888,8 @@ int main() {
 7. ![7](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8568b539-58fb-4aa2-833d-5c1a97566dcb)<br/>
 8. ![8](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/89df97e7-6acc-47ad-b67b-9ca97d73a7ca)<br/>
 9. ![9](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/615e5270-2c53-4e1d-89dd-e6382622b6ca)<br/>
-10. ![10](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8bb970a9-80b4-4f9a-a480-bce6696ffcd1)<br/>
-    ![10_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e37ec14d-3acd-483b-a3e2-2834e122fe6c)<br/>
+10. - ![10](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/8bb970a9-80b4-4f9a-a480-bce6696ffcd1)<br/>
+    - ![10_1](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/e37ec14d-3acd-483b-a3e2-2834e122fe6c)<br/>
 11. ![11](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/1280a3e6-9031-4676-92c7-9d6c18942bf3)<br/>
 12. ![12](https://github.com/amandawindhu/2311102121-Amanda-Windhu-Gustyas/assets/150095443/b6b27861-d079-46ea-a9c2-c7f64614a078)<br/>
 
